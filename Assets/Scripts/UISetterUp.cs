@@ -21,7 +21,12 @@ public class UISetterUp : MonoBehaviour
     {
         StartCoroutine(PrintText(toTalk));
     }
-    
+
+    public void Disappear()
+    {
+        transform.DOScale(0, 1);
+    }
+
     private IEnumerator PrintText(string textToSpeak)
     {
         transform.DOScale(1, 1);
@@ -31,10 +36,9 @@ public class UISetterUp : MonoBehaviour
         for (int i = 0; i < textToSpeak.Length; i++)
         {
             characSpeak.text += textToSpeak[i];
-            yield return new WaitForSeconds(0.3f);
+            yield return new WaitForSeconds(0.05f);
         }
 
         FindObjectOfType<CinemaController>().isDialogHappening = false;
-        transform.DOScale(0, 1);
     }
 }

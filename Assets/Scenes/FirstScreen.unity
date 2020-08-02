@@ -212,8 +212,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee84dbb38fe7d5f4baf449e465ef8659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portrait: {fileID: 0}
-  characterName: 
+  portrait: {fileID: 21300000, guid: 913d3051f026d6b49a2f8ecfedf811c3, type: 3}
+  characterName: Crym Aure
   anim: {fileID: 0}
   startsAngry: 0
   startsCrying: 1
@@ -245,8 +245,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee84dbb38fe7d5f4baf449e465ef8659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portrait: {fileID: 0}
-  characterName: 
+  portrait: {fileID: 21300000, guid: d99f3801326fbe341bcfeef256212456, type: 3}
+  characterName: Melodie
   anim: {fileID: 0}
   startsAngry: 0
   startsCrying: 0
@@ -425,8 +425,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee84dbb38fe7d5f4baf449e465ef8659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portrait: {fileID: 0}
-  characterName: 
+  portrait: {fileID: 21300000, guid: 79a54b7398ba2d041bb8b7e4efb37dcb, type: 3}
+  characterName: Jacques Verb
   anim: {fileID: 0}
   startsAngry: 0
   startsCrying: 0
@@ -458,8 +458,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee84dbb38fe7d5f4baf449e465ef8659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portrait: {fileID: 0}
-  characterName: 
+  portrait: {fileID: 21300000, guid: eb80bc7e460197041a6cc627dae36634, type: 3}
+  characterName: Naut Souspicious
   anim: {fileID: 0}
   startsAngry: 1
   startsCrying: 0
@@ -977,6 +977,79 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 38db382aa42a14d4bb6b294ac49bb9d4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 83139230f1d12e941a1a4fe3717b6561, type: 3}
+--- !u!1 &934931730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 934931731}
+  - component: {fileID: 934931733}
+  - component: {fileID: 934931732}
+  m_Layer: 5
+  m_Name: Transition
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &934931731
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934931730}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1969459846}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 185.5, y: 132.9}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &934931732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934931730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 0}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &934931733
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934931730}
+  m_CullTransparentMesh: 0
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0
@@ -1060,6 +1133,78 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 32.176003, y: -0.030000001, z: 0.172}
+--- !u!1 &1028725256
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1028725257}
+  - component: {fileID: 1028725259}
+  - component: {fileID: 1028725258}
+  m_Layer: 5
+  m_Name: TMP SubMeshUI [JazzOneDemoRegular SDF Material + LiberationSans SDF Atlas]
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1028725257
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028725256}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1497569897}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1028725258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028725256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 058cba836c1846c3aa1c5fd2e28aea77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_spriteAsset: {fileID: 0}
+  m_material: {fileID: 0}
+  m_sharedMaterial: {fileID: 0}
+  m_isDefaultMaterial: 0
+  m_padding: 1.25
+  m_canvasRenderer: {fileID: 1028725259}
+  m_TextComponent: {fileID: 1497569898}
+  m_materialReferenceIndex: 1
+--- !u!222 &1028725259
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1028725256}
+  m_CullTransparentMesh: 0
 --- !u!1 &1032278577 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1581182825111960, guid: 5b920fc901e2cd945beaebdb578e5b09,
@@ -1078,8 +1223,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee84dbb38fe7d5f4baf449e465ef8659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portrait: {fileID: 0}
-  characterName: 
+  portrait: {fileID: 21300000, guid: cff229df67e5e624e8ddb49326aad76a, type: 3}
+  characterName: Rhand Omguy
   anim: {fileID: 0}
   startsAngry: 0
   startsCrying: 0
@@ -1248,15 +1393,16 @@ MonoBehaviour:
       m_Calls: []
   m_text: CharacName
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e18659aece8130741b2f04d5d747aded, type: 2}
+  m_sharedMaterial: {fileID: 754948129874179212, guid: e18659aece8130741b2f04d5d747aded,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4278217215
+  m_fontColor: {r: 1, g: 0.4134572, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1382,11 +1528,62 @@ MonoBehaviour:
   - {fileID: 186320734}
   - {fileID: 1032278578}
   - {fileID: 1638981602}
-  events: []
+  events:
+  - characterIndex: 0
+    eventType_: 0
+    whatToSay: <i>What to do...what to do...</i>
+    finalpos: {x: 0, y: 0, z: 0}
+    isSpeaking: 0
+  - characterIndex: 2
+    eventType_: 3
+    whatToSay: OUTRAGEOUS ! Set me free ! You have taken too much of my time !
+    finalpos: {x: 0, y: 0, z: 0}
+    isSpeaking: 0
+  - characterIndex: 3
+    eventType_: 6
+    whatToSay: I'm not guilty...I swear !
+    finalpos: {x: 0, y: 0, z: 0}
+    isSpeaking: 0
+  - characterIndex: 5
+    eventType_: 1
+    whatToSay: Detective, what should we do ? Is the culprit really here ?
+    finalpos: {x: 0, y: 0, z: 0}
+    isSpeaking: 0
+  - characterIndex: 5
+    eventType_: 5
+    whatToSay: 
+    finalpos: {x: 0, y: 0, z: 0}
+    isSpeaking: 0
+  - characterIndex: 4
+    eventType_: 1
+    whatToSay: I'm not sure we will be able to retain them here much longer...
+    finalpos: {x: 0, y: 0, z: 0}
+    isSpeaking: 0
+  - characterIndex: 4
+    eventType_: 5
+    whatToSay: 
+    finalpos: {x: 0, y: 0, z: 0}
+    isSpeaking: 0
+  - characterIndex: 0
+    eventType_: 1
+    whatToSay: Please, everyone ! Let me think, it won't take long !
+    finalpos: {x: 0, y: 0, z: 0}
+    isSpeaking: 0
+  - characterIndex: 0
+    eventType_: 0
+    whatToSay: <i>Think Melody, think...who is the culprit ?...</i>
+    finalpos: {x: 0, y: 0, z: 0}
+    isSpeaking: 0
+  - characterIndex: 0
+    eventType_: 8
+    whatToSay: 
+    finalpos: {x: 0, y: 0, z: 0}
+    isSpeaking: 0
   uiSetter: {fileID: 1475765281}
-  playOnAwake: 0
+  playOnAwake: 1
   isDialogHappening: 0
   isEventing: 0
+  toFadeIn: {fileID: 934931732}
   band1: {fileID: 734448880}
   band2: {fileID: 2059344159}
 --- !u!4 &1273723791
@@ -1497,7 +1694,7 @@ RectTransform:
   m_GameObject: {fileID: 1475765277}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 411523696}
   - {fileID: 1071492434}
@@ -1590,7 +1787,8 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1028725257}
   m_Father: {fileID: 1475765278}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1619,8 +1817,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Yeah I'm so smart yeah
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: e18659aece8130741b2f04d5d747aded, type: 2}
+  m_sharedMaterial: {fileID: 754948129874179212, guid: e18659aece8130741b2f04d5d747aded,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1645,8 +1844,8 @@ MonoBehaviour:
   m_outlineColor:
     serializedVersion: 2
     rgba: 4278190080
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 28
+  m_fontSizeBase: 28
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1693,14 +1892,14 @@ MonoBehaviour:
     linkCount: 0
     lineCount: 1
     pageCount: 1
-    materialCount: 1
+    materialCount: 2
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
   m_hasFontAssetChanged: 0
   m_subTextObjects:
   - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 1028725258}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -1735,8 +1934,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee84dbb38fe7d5f4baf449e465ef8659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  portrait: {fileID: 0}
-  characterName: 
+  portrait: {fileID: 21300000, guid: 06f42c10e32783047a938f256b5cf596, type: 3}
+  characterName: Lis Deslivres
   anim: {fileID: 0}
   startsAngry: 0
   startsCrying: 0
@@ -1845,6 +2044,7 @@ RectTransform:
   - {fileID: 2059344156}
   - {fileID: 560144564}
   - {fileID: 1475765278}
+  - {fileID: 934931731}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

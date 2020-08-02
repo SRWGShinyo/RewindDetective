@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CinemaController : MonoBehaviour
 {
@@ -13,6 +14,8 @@ public class CinemaController : MonoBehaviour
     public bool playOnAwake;
     public bool isDialogHappening;
     public bool isEventing;
+
+    public Image toFadeIn;
 
     public CinemaBandMover band1;
     public CinemaBandMover band2;
@@ -29,13 +32,15 @@ public class CinemaController : MonoBehaviour
             END,
             IDLE,
             CRYING,
-            LEAVE
+            LEAVE,
+            FADE
         }
 
         public int characterIndex;
         public eventType eventType_;
         public string whatToSay;
         public Vector3 finalpos;
+        public bool isSpeaking;
     }
 
     void Start()
@@ -53,12 +58,16 @@ public class CinemaController : MonoBehaviour
 
     private void LaunchSequenceOfEvent()
     {
+        isEventing = true;
         GoToCinematic();
         LaunchNextEvent();
     }
 
     private void LaunchNextEvent()
     {
+        if (events.Count == 0)
+            return;
+
         EventDescriptor toPlay = events[0];
         events.RemoveAt(0);
 
@@ -66,45 +75,71 @@ public class CinemaController : MonoBehaviour
         {
             case EventDescriptor.eventType.END:
                 EndCinematic();
+                uiSetter.Disappear();
                 isEventing = false;
                 break;
             case EventDescriptor.eventType.LEAVE:
+                uiSetter.Disappear();
+                LaunchNextEvent();
                 charactersToInteract[toPlay.characterIndex].gameObject.SetActive(false);
                 break;
             case EventDescriptor.eventType.ANGRY:
                 CharacterDefinition def = charactersToInteract[toPlay.characterIndex];
                 def.GoAngryState();
-                uiSetter.SetUpWith(def.portrait, def.name);
+                uiSetter.SetUpWith(def.portrait, def.characterName);
                 uiSetter.TalkWith(toPlay.whatToSay);
                 break;
             case EventDescriptor.eventType.THINKING:
                 CharacterDefinition def1 = charactersToInteract[toPlay.characterIndex];
-                def1.GoAngryState();
-                uiSetter.SetUpWith(def1.portrait, def1.name);
+                def1.GoThinkingState();
+                uiSetter.SetUpWith(def1.portrait, def1.characterName);
                 uiSetter.TalkWith(toPlay.whatToSay);
                 break;
             case EventDescriptor.eventType.CRYING:
                 CharacterDefinition def2 = charactersToInteract[toPlay.characterIndex];
-                def2.GoAngryState();
-                uiSetter.SetUpWith(def2.portrait, def2.name);
+                def2.GoCryingState();
+                uiSetter.SetUpWith(def2.portrait, def2.characterName);
                 uiSetter.TalkWith(toPlay.whatToSay);
                 break;
             case EventDescriptor.eventType.TALKING:
                 CharacterDefinition def3 = charactersToInteract[toPlay.characterIndex];
-                def3.GoAngryState();
-                uiSetter.SetUpWith(def3.portrait, def3.name);
+                def3.GoTalkingState();
+                uiSetter.SetUpWith(def3.portrait, def3.characterName);
                 uiSetter.TalkWith(toPlay.whatToSay);
                 break;
             case EventDescriptor.eventType.IDLE:
                 CharacterDefinition def4 = charactersToInteract[toPlay.characterIndex];
-                def4.GoAngryState();
-                uiSetter.SetUpWith(def4.portrait, def4.name);
+                def4.GoIdleState();
+                if (!toPlay.isSpeaking)
+                {
+                    uiSetter.Disappear();
+                    LaunchNextEvent();
+                    break;
+                }
+                uiSetter.SetUpWith(def4.portrait, def4.characterName);
                 uiSetter.TalkWith(toPlay.whatToSay);
                 break;
             case EventDescriptor.eventType.WALKING:
                 CharacterDefinition def5 = charactersToInteract[toPlay.characterIndex];
                 def5.GoWalk(toPlay.finalpos);
+                LaunchNextEvent();
+                uiSetter.Disappear();
                 break;
+            case EventDescriptor.eventType.FADE:
+                uiSetter.Disappear();
+                StartCoroutine(Fade(toFadeIn));
+                break;
+        }
+    }
+
+    private IEnumerator Fade(Image image)
+    {
+        while (image.color.a < 1f)
+        {
+            Color color = image.color;
+            color.a += 0.1f;
+            yield return new WaitForSeconds(0.1f);
+            image.color = color;
         }
     }
 

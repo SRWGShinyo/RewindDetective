@@ -11,6 +11,8 @@ public class UISetterUp : MonoBehaviour
     public TextMeshProUGUI characName;
     public TextMeshProUGUI characSpeak;
 
+    public AudioSource speaking;
+
     public void SetUpWith(Sprite portrait_, string characName_)
     {
         portrait.sprite = portrait_;
@@ -29,6 +31,7 @@ public class UISetterUp : MonoBehaviour
 
     private IEnumerator PrintText(string textToSpeak)
     {
+        speaking.Play();
         transform.DOScale(1, 1);
         FindObjectOfType<CinemaController>().isDialogHappening = true;
         characSpeak.text = "";
@@ -40,5 +43,6 @@ public class UISetterUp : MonoBehaviour
         }
 
         FindObjectOfType<CinemaController>().isDialogHappening = false;
+        speaking.Pause();
     }
 }

@@ -39,7 +39,7 @@ public class UISetterUp : MonoBehaviour
         for (int i = 0; i < textToSpeak.Length; i++)
         {
             characSpeak.text += textToSpeak[i];
-            yield return new WaitForSeconds(0.05f);
+            yield return new WaitForSeconds(0.03f);
         }
 
         FindObjectOfType<CinemaController>().isDialogHappening = false;

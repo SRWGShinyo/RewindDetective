@@ -343,7 +343,7 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1959687922}
   m_PrefabAsset: {fileID: 0}
---- !u!135 &34291391
+--- !u!135 &34291392
 SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -356,6 +356,18 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &34291393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34291390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 126a7d16ce85b55488cf48a670568d4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &34985838
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1292,15 +1304,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 160722, guid: 779cfe5c6f421df498e6d1bad7df7396, type: 3}
       propertyPath: m_Name
-      value: SM_Prop_Seat_02
-      objectReference: {fileID: 0}
-    - target: {fileID: 160722, guid: 779cfe5c6f421df498e6d1bad7df7396, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 160722, guid: 779cfe5c6f421df498e6d1bad7df7396, type: 3}
-      propertyPath: m_NavMeshLayer
-      value: 1
+      value: Bordel
       objectReference: {fileID: 0}
     - target: {fileID: 421788, guid: 779cfe5c6f421df498e6d1bad7df7396, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1346,18 +1350,55 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90.326004
       objectReference: {fileID: 0}
-    - target: {fileID: 421788, guid: 779cfe5c6f421df498e6d1bad7df7396, type: 3}
-      propertyPath: m_LocalScale.x
+    - target: {fileID: 1239859211, guid: 779cfe5c6f421df498e6d1bad7df7396, type: 3}
+      propertyPath: m_Name
+      value: Position
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449780926, guid: 779cfe5c6f421df498e6d1bad7df7396, type: 3}
+      propertyPath: actions.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449780926, guid: 779cfe5c6f421df498e6d1bad7df7396, type: 3}
+      propertyPath: deflt.events.Array.size
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 421788, guid: 779cfe5c6f421df498e6d1bad7df7396, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 2
+    - target: {fileID: 1449780926, guid: 779cfe5c6f421df498e6d1bad7df7396, type: 3}
+      propertyPath: actions.Array.data[0].events.Array.size
+      value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 421788, guid: 779cfe5c6f421df498e6d1bad7df7396, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 2
+    - target: {fileID: 1449780926, guid: 779cfe5c6f421df498e6d1bad7df7396, type: 3}
+      propertyPath: toPosition
+      value: 
+      objectReference: {fileID: 1239859211}
+    - target: {fileID: 1449780926, guid: 779cfe5c6f421df498e6d1bad7df7396, type: 3}
+      propertyPath: deflt.events.Array.data[0].whatToSay
+      value: What a mess ! This criminal is not one to respect the boy's scout rule.
       objectReference: {fileID: 0}
+    - target: {fileID: 1449780926, guid: 779cfe5c6f421df498e6d1bad7df7396, type: 3}
+      propertyPath: deflt.events.Array.data[1].eventType_
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449780926, guid: 779cfe5c6f421df498e6d1bad7df7396, type: 3}
+      propertyPath: actions.Array.data[0].events.Array.data[0].whatToSay
+      value: Hmmm...everything here looks like it has been taken down...
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449780926, guid: 779cfe5c6f421df498e6d1bad7df7396, type: 3}
+      propertyPath: actions.Array.data[0].events.Array.data[1].eventType_
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449780926, guid: 779cfe5c6f421df498e6d1bad7df7396, type: 3}
+      propertyPath: actions.Array.data[0].events.Array.data[2].whatToSay
+      value: But...something isn't quite right here...
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449780926, guid: 779cfe5c6f421df498e6d1bad7df7396, type: 3}
+      propertyPath: actions.Array.data[0].events.Array.data[3].eventType_
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449780926, guid: 779cfe5c6f421df498e6d1bad7df7396, type: 3}
+      propertyPath: actions.Array.data[0].events.Array.data[1].hintToGive
+      value: 
+      objectReference: {fileID: 11400000, guid: b407d616ddd78014a8f2120335be842a,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 779cfe5c6f421df498e6d1bad7df7396, type: 3}
 --- !u!4 &361576970 stripped
@@ -5364,6 +5405,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 407504, guid: b0db04ffe8e8d054c8d535475b6e8669,
     type: 3}
   m_PrefabInstance: {fileID: 1233730712}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1239859211 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1239859211, guid: 779cfe5c6f421df498e6d1bad7df7396,
+    type: 3}
+  m_PrefabInstance: {fileID: 361576969}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1240493138
 PrefabInstance:

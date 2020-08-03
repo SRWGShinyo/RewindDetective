@@ -33,7 +33,8 @@ public class CinemaController : MonoBehaviour
             IDLE,
             CRYING,
             LEAVE,
-            FADE
+            FADE,
+            HINT
         }
 
         public int characterIndex;
@@ -41,6 +42,7 @@ public class CinemaController : MonoBehaviour
         public string whatToSay;
         public Vector3 finalpos;
         public bool isSpeaking;
+        public HintDescription hintToGive;
     }
 
     void Start()
@@ -81,6 +83,11 @@ public class CinemaController : MonoBehaviour
                 if (FindObjectOfType<InteractableController>().isInteracting)
                     FindObjectOfType<InteractableController>().PingAction();
                 isEventing = false;
+                break;
+            case EventDescriptor.eventType.HINT:
+                FindObjectOfType<DetectiveHolderBehaviour>().hints.Add(toPlay.hintToGive);
+                uiSetter.Disappear();
+                LaunchNextEvent();
                 break;
             case EventDescriptor.eventType.LEAVE:
                 uiSetter.Disappear();

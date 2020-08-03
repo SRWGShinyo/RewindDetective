@@ -45,66 +45,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   charactersToInteract:
   - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  events:
-  - characterIndex: 0
-    eventType_: 0
-    whatToSay: <i>What to do...what to do...</i>
-    finalpos: {x: 0, y: 0, z: 0}
-    isSpeaking: 0
-  - characterIndex: 2
-    eventType_: 3
-    whatToSay: OUTRAGEOUS ! Set me free ! You have taken too much of my time !
-    finalpos: {x: 0, y: 0, z: 0}
-    isSpeaking: 0
-  - characterIndex: 3
-    eventType_: 6
-    whatToSay: I'm not guilty...I swear !
-    finalpos: {x: 0, y: 0, z: 0}
-    isSpeaking: 0
-  - characterIndex: 5
-    eventType_: 1
-    whatToSay: Detective, what should we do ? Is the culprit really here ?
-    finalpos: {x: 0, y: 0, z: 0}
-    isSpeaking: 0
-  - characterIndex: 5
-    eventType_: 5
-    whatToSay: 
-    finalpos: {x: 0, y: 0, z: 0}
-    isSpeaking: 0
-  - characterIndex: 4
-    eventType_: 1
-    whatToSay: I'm not sure we will be able to retain them here much longer...
-    finalpos: {x: 0, y: 0, z: 0}
-    isSpeaking: 0
-  - characterIndex: 4
-    eventType_: 5
-    whatToSay: 
-    finalpos: {x: 0, y: 0, z: 0}
-    isSpeaking: 0
-  - characterIndex: 0
-    eventType_: 1
-    whatToSay: Please, everyone ! Let me think, it won't take long !
-    finalpos: {x: 0, y: 0, z: 0}
-    isSpeaking: 0
-  - characterIndex: 0
-    eventType_: 0
-    whatToSay: <i>Think Melody, think...who is the culprit ?...</i>
-    finalpos: {x: 0, y: 0, z: 0}
-    isSpeaking: 0
-  - characterIndex: 0
-    eventType_: 8
-    whatToSay: 
-    finalpos: {x: 0, y: 0, z: 0}
-    isSpeaking: 0
+  events: []
   uiSetter: {fileID: 0}
-  playOnAwake: 1
+  playOnAwake: 0
   isDialogHappening: 0
   isEventing: 0
   toFadeIn: {fileID: 0}
+  newHintPanel: {fileID: 0}
   band1: {fileID: 0}
   band2: {fileID: 0}

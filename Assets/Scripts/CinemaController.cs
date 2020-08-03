@@ -17,6 +17,8 @@ public class CinemaController : MonoBehaviour
 
     public Image toFadeIn;
 
+    public GameObject newHintPanel;
+
     public CinemaBandMover band1;
     public CinemaBandMover band2;
 
@@ -86,6 +88,7 @@ public class CinemaController : MonoBehaviour
                 break;
             case EventDescriptor.eventType.HINT:
                 FindObjectOfType<DetectiveHolderBehaviour>().hints.Add(toPlay.hintToGive);
+                StartCoroutine(newHintPanel.GetComponent<HInt>().AppearAndDisappear());
                 uiSetter.Disappear();
                 LaunchNextEvent();
                 break;

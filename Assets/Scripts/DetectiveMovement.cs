@@ -18,14 +18,16 @@ public class DetectiveMovement : MonoBehaviour
     {
         GroundHasBeenChecked();
         if (Mathf.Abs(agent.velocity.x) <= 1f && Mathf.Abs(agent.velocity.z) <= 1f)
+        {
             anim.SetBool("isWalking", false);
+        }
         else
             anim.SetBool("isWalking", true);
     }
 
     private void GroundHasBeenChecked()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && !FindObjectOfType<InteractableController>().isInteracting)
         {
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
@@ -35,5 +37,10 @@ public class DetectiveMovement : MonoBehaviour
                     agent.SetDestination(hit.point);
             }
         }
+    }
+
+    public void GoTopoint(Vector3 vector)
+    {
+        agent.SetDestination(vector);
     }
 }

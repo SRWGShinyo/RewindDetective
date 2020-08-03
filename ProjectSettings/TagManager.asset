@@ -7,6 +7,7 @@ TagManager:
   - DanceLight
   - Ground
   - ProfilePanel
+  - Interactable
   layers:
   - Default
   - TransparentFX

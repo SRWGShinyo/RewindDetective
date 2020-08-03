@@ -56,7 +56,7 @@ public class CinemaController : MonoBehaviour
             LaunchNextEvent();
     }
 
-    private void LaunchSequenceOfEvent()
+    public void LaunchSequenceOfEvent()
     {
         isEventing = true;
         GoToCinematic();
@@ -74,8 +74,12 @@ public class CinemaController : MonoBehaviour
         switch(toPlay.eventType_)
         {
             case EventDescriptor.eventType.END:
+                CharacterDefinition def12 = charactersToInteract[toPlay.characterIndex];
+                def12.GoIdleState();
                 EndCinematic();
                 uiSetter.Disappear();
+                if (FindObjectOfType<InteractableController>().isInteracting)
+                    FindObjectOfType<InteractableController>().PingAction();
                 isEventing = false;
                 break;
             case EventDescriptor.eventType.LEAVE:

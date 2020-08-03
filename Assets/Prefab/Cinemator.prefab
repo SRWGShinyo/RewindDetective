@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5045719197858803956
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5045719197858803958}
+  - component: {fileID: 5045719197858803959}
+  m_Layer: 0
+  m_Name: Cinemator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5045719197858803958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5045719197858803956}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5045719197858803959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5045719197858803956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26cc371b40030ae47916ac39e9b396f9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  charactersToInteract:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  events:
+  - characterIndex: 0
+    eventType_: 0
+    whatToSay: <i>What to do...what to do...</i>
+    finalpos: {x: 0, y: 0, z: 0}
+    isSpeaking: 0
+  - characterIndex: 2
+    eventType_: 3
+    whatToSay: OUTRAGEOUS ! Set me free ! You have taken too much of my time !
+    finalpos: {x: 0, y: 0, z: 0}
+    isSpeaking: 0
+  - characterIndex: 3
+    eventType_: 6
+    whatToSay: I'm not guilty...I swear !
+    finalpos: {x: 0, y: 0, z: 0}
+    isSpeaking: 0
+  - characterIndex: 5
+    eventType_: 1
+    whatToSay: Detective, what should we do ? Is the culprit really here ?
+    finalpos: {x: 0, y: 0, z: 0}
+    isSpeaking: 0
+  - characterIndex: 5
+    eventType_: 5
+    whatToSay: 
+    finalpos: {x: 0, y: 0, z: 0}
+    isSpeaking: 0
+  - characterIndex: 4
+    eventType_: 1
+    whatToSay: I'm not sure we will be able to retain them here much longer...
+    finalpos: {x: 0, y: 0, z: 0}
+    isSpeaking: 0
+  - characterIndex: 4
+    eventType_: 5
+    whatToSay: 
+    finalpos: {x: 0, y: 0, z: 0}
+    isSpeaking: 0
+  - characterIndex: 0
+    eventType_: 1
+    whatToSay: Please, everyone ! Let me think, it won't take long !
+    finalpos: {x: 0, y: 0, z: 0}
+    isSpeaking: 0
+  - characterIndex: 0
+    eventType_: 0
+    whatToSay: <i>Think Melody, think...who is the culprit ?...</i>
+    finalpos: {x: 0, y: 0, z: 0}
+    isSpeaking: 0
+  - characterIndex: 0
+    eventType_: 8
+    whatToSay: 
+    finalpos: {x: 0, y: 0, z: 0}
+    isSpeaking: 0
+  uiSetter: {fileID: 0}
+  playOnAwake: 1
+  isDialogHappening: 0
+  isEventing: 0
+  toFadeIn: {fileID: 0}
+  band1: {fileID: 0}
+  band2: {fileID: 0}

@@ -9,6 +9,7 @@ public class ProfileElement : ScriptableObject
     [Serializable]
     public class ProfileDescription
     {
+        public Sprite portrait;
         public string characName;
         public int size;
         public int weight;

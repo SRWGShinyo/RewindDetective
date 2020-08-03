@@ -17,7 +17,6 @@ public class DetectiveMovement : MonoBehaviour
     private void Update()
     {
         GroundHasBeenChecked();
-        Debug.Log(agent.velocity);
         if (Mathf.Abs(agent.velocity.x) <= 1f && Mathf.Abs(agent.velocity.z) <= 1f)
             anim.SetBool("isWalking", false);
         else

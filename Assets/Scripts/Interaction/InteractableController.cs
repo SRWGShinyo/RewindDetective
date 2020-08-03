@@ -6,13 +6,19 @@ public class InteractableController : MonoBehaviour
 {
     public Material selected;
     Queue<Material> store = new Queue<Material>();
+    CinemaController cinema;
 
     Interactable interacted = null;
     public bool isInteracting;
 
+    private void Start()
+    {
+        cinema = FindObjectOfType<CinemaController>();
+    }
+
     void Update()
     {
-        if (!isInteracting && GetOnInteractable() && Input.GetMouseButtonDown(0))
+        if (!isInteracting && !cinema.isEventing && GetOnInteractable() && Input.GetMouseButtonDown(0))
         {
             isInteracting = true;
             goBackToProperColor(interacted.transform);

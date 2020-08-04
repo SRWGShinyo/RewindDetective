@@ -10,6 +10,8 @@ public class InteractableController : MonoBehaviour
     Queue<Material> store = new Queue<Material>();
     CinemaController cinema;
 
+    public GameObject folderpanel;
+
     public Interactable interacted = null;
     public bool isInteracting;
     public bool isMoving;
@@ -45,6 +47,9 @@ public class InteractableController : MonoBehaviour
 
     private bool GetOnInteractable()
     {
+        if (folderpanel.activeSelf)
+            return false;
+
         RaycastHit hit;
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         if (Physics.Raycast(ray, out hit, Mathf.Infinity))

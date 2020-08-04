@@ -22,14 +22,14 @@ MonoBehaviour:
       eventType_: 5
       whatToSay: Mmh yes. The blood on the statue leaves no place for doubt.
       finalpos: {x: 0, y: 0, z: 0}
-      isSpeaking: 0
+      isSpeaking: 1
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
       eventType_: 5
       whatToSay: The victim has been struck to the head with the statue.
       finalpos: {x: 0, y: 0, z: 0}
-      isSpeaking: 0
+      isSpeaking: 1
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0

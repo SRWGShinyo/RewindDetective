@@ -18,7 +18,7 @@ public class FolderScript : MonoBehaviour
 
     public void openFolder()
     {
-        if (FindObjectOfType<CinemaController>().isEventing)
+        if (FindObjectOfType<CinemaController>().isEventing || FindObjectOfType<InteractableController>().isMoving || FindObjectOfType<InteractableController>().isInteracting)
             return;
         EventSystem.current.SetSelectedGameObject(null);
         folderPanel.SetActive(true);
@@ -77,8 +77,7 @@ public class FolderScript : MonoBehaviour
             GameObject hintGO = Instantiate(hintEntry, contentHint.transform);
             hintGO.GetComponentInChildren<Image>().sprite = hint.image;
             hintGO.GetComponentInChildren<TextMeshProUGUI>().text = hint.description;
-            hintGO.GetComponentInChildren<HintHolderInfo>().combinesWith = hint.combineWith;
-            hintGO.GetComponentInChildren<HintHolderInfo>().gives = hint.givesBack;
+            hintGO.GetComponentInChildren<HintHolderInfo>().hint = hint;
         }
     }
 }

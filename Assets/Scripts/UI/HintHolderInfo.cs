@@ -4,6 +4,5 @@ using UnityEngine;
 
 public class HintHolderInfo : MonoBehaviour
 {
-    public HintDescription combinesWith;
-    public HintDescription gives;
+    public HintDescription hint;
 }

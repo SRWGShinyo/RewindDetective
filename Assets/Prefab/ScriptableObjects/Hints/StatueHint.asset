@@ -14,5 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   image: {fileID: 21300000, guid: b8f50270a5988a547959c2b625ee5f6c, type: 3}
   description: A statue was found near the desk, covered in blood.
-  combineWith: {fileID: 0}
-  givesBack: {fileID: 0}
+  combineWith: {fileID: 11400000, guid: 4367efdf07505a8458a9aa62bca67ebf, type: 2}
+  givesBack: {fileID: 11400000, guid: 668b40458fd5b3f4fb5661588f8da2e3, type: 2}
+  actionIfFused:
+    events:
+    - characterIndex: 0
+      eventType_: 5
+      whatToSay: Mmh yes. The blood on the statue leaves no place for doubt.
+      finalpos: {x: 0, y: 0, z: 0}
+      isSpeaking: 0
+      hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
+    - characterIndex: 0
+      eventType_: 5
+      whatToSay: The victim has been struck to the head with the statue.
+      finalpos: {x: 0, y: 0, z: 0}
+      isSpeaking: 0
+      hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
+    - characterIndex: 0
+      eventType_: 4
+      whatToSay: 
+      finalpos: {x: 0, y: 0, z: 0}
+      isSpeaking: 0
+      hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}

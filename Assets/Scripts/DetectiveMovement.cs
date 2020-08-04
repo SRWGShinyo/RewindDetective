@@ -29,6 +29,8 @@ public class DetectiveMovement : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && !FindObjectOfType<InteractableController>().isInteracting)
         {
+            if (FindObjectOfType<FolderScript>().folderPanel.active)
+                return;
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             if (Physics.Raycast(ray, out hit, Mathf.Infinity))

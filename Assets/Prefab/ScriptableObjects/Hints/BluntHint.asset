@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18568a7d5dbde8040b99c68262cf7b87, type: 3}
+  m_Name: BluntHint
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: b8f50270a5988a547959c2b625ee5f6c, type: 3}
+  description: The statue at the desk was used to strike the victim
+  combineWith: {fileID: 0}
+  givesBack: {fileID: 0}
+  actionIfFused:
+    events: []

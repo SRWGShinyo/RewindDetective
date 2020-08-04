@@ -1265,12 +1265,14 @@ MonoBehaviour:
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 0
       eventType_: 5
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 1
       eventType_: 1
       whatToSay: A very rare and precious jewel. We were not able to find it after
@@ -1278,30 +1280,35 @@ MonoBehaviour:
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 1
       eventType_: 5
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 0
       eventType_: 0
       whatToSay: So the culprit fled with a jewel...Interesting...
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 0
       eventType_: 9
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 11400000, guid: db04f72cfec41304b9452e5063f64953, type: 2}
+      profileToGive: {fileID: 0}
     - characterIndex: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
   - events:
     - characterIndex: 0
       eventType_: 0
@@ -1309,42 +1316,49 @@ MonoBehaviour:
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 1
       eventType_: 5
       whatToSay: '....'
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 1
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 0
       eventType_: 1
       whatToSay: What ?
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 1
       eventType_: 5
       whatToSay: '...'
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 1
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 0
       eventType_: 1
       whatToSay: All right, all right. Stop reading my mind !
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 0
       eventType_: 0
       whatToSay: What a shame...
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
   deflt:
     events:
     - characterIndex: 0
@@ -1353,30 +1367,35 @@ MonoBehaviour:
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 0
       eventType_: 5
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 1
       eventType_: 5
       whatToSay: No.
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 1
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 0
       eventType_: 1
       whatToSay: Fine, fine !
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 0
       eventType_: 4
       whatToSay: A rare jewel is missing...
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
 --- !u!1 &322781848
 GameObject:
   m_ObjectHideFlags: 0
@@ -5645,24 +5664,28 @@ MonoBehaviour:
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 0
       eventType_: 0
       whatToSay: But..wait. Page 4, 5, 7...something is missing !
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 0
       eventType_: 9
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 11400000, guid: cc69ab3ed13edd641a1868b0675c0445, type: 2}
+      profileToGive: {fileID: 0}
     - characterIndex: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
   - events:
     - characterIndex: 0
       eventType_: 1
@@ -5670,42 +5693,49 @@ MonoBehaviour:
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 0
       eventType_: 5
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 1
       eventType_: 1
       whatToSay: He migh be a shelf-addict.
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 1
       eventType_: 5
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 0
       eventType_: 1
       whatToSay: Yeah...right...
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 1
       eventType_: 0
       whatToSay: And that's why I'm the detective here, ladies and gentlemen !
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 1
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
   deflt:
     events:
     - characterIndex: 0
@@ -5714,12 +5744,14 @@ MonoBehaviour:
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
 --- !u!1001 &1233730712
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6692,6 +6724,22 @@ MonoBehaviour:
   interacted: {fileID: 0}
   isInteracting: 0
   isMoving: 0
+  defaultUnfused:
+    events:
+    - characterIndex: 0
+      eventType_: 5
+      whatToSay: I can't conclude anything from this...
+      finalpos: {x: 0, y: 0, z: 0}
+      isSpeaking: 1
+      hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
+    - characterIndex: 0
+      eventType_: 4
+      whatToSay: 
+      finalpos: {x: 0, y: 0, z: 0}
+      isSpeaking: 0
+      hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
 --- !u!4 &1479914582
 Transform:
   m_ObjectHideFlags: 0
@@ -7296,24 +7344,28 @@ MonoBehaviour:
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 0
       eventType_: 9
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
-      hintToGive: {fileID: 0}
+      hintToGive: {fileID: 11400000, guid: 50e1954305683514bbd8043278d23e2e, type: 2}
+      profileToGive: {fileID: 0}
     - characterIndex: 0
       eventType_: 0
       whatToSay: But...no...something is wrong...
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
   deflt:
     events:
     - characterIndex: 0
@@ -7323,18 +7375,21 @@ MonoBehaviour:
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 0
       eventType_: 0
       whatToSay: Not that it matters, of course.
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
 --- !u!33 &1752107330
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -7944,24 +7999,28 @@ MonoBehaviour:
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 0
       eventType_: 0
       whatToSay: What a strange color. I never saw a drink like that.
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 0
       eventType_: 9
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 11400000, guid: 6c36a3a9e84bbd3488bd71454696e830, type: 2}
+      profileToGive: {fileID: 0}
     - characterIndex: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
   deflt:
     events:
     - characterIndex: 0
@@ -7970,12 +8029,14 @@ MonoBehaviour:
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
     - characterIndex: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
       isSpeaking: 0
       hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
 --- !u!1001 &1959687922
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -1627,7 +1627,7 @@ GameObject:
   - component: {fileID: 777967712}
   m_Layer: 5
   m_Name: HintButton
-  m_TagString: Untagged
+  m_TagString: HintButton
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

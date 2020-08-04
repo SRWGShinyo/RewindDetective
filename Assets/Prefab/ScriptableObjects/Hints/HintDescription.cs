@@ -10,4 +10,6 @@ public class HintDescription : ScriptableObject
 
     public HintDescription combineWith;
     public HintDescription givesBack;
+
+    public Interactable.Action actionIfFused;
 }

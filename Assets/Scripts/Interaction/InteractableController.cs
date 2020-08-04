@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.WSA;
 
 public class InteractableController : MonoBehaviour
 {
@@ -11,6 +13,11 @@ public class InteractableController : MonoBehaviour
     public Interactable interacted = null;
     public bool isInteracting;
     public bool isMoving;
+
+    HintHolderInfo h1;
+    HintHolderInfo h2;
+
+    public Interactable.Action defaultUnfused;
 
     private void Start()
     {
@@ -24,6 +31,7 @@ public class InteractableController : MonoBehaviour
             isMoving = true;
             goBackToProperColor(interacted.transform);
             FindObjectOfType<DetectiveMovement>().GoTopoint(interacted.toPosition.transform.position);
+            FindObjectOfType<FolderScript>().closeFolder();
         }
     }
 
@@ -134,5 +142,62 @@ public class InteractableController : MonoBehaviour
     {
         isInteracting = false;
         interacted = null;
+    }
+
+    public void AddToSelection(HintHolderInfo h)
+    {
+        if (h1 != null && h2 != null)
+            return;
+
+        if (h1 == null)
+            h1 = h;
+
+        else if (h2 == null)
+            h2 = h;
+
+        if (h1 != null && h2 != null)
+            GoForFuse();
+    }
+
+    public void RemoveFromSelection(HintHolderInfo h)
+    {
+        if (h1 == h)
+            h1 = null;
+        if (h2 == h)
+            h2 = null;
+    }
+
+    private void GoForFuse()
+    {
+        if (h1.hint.combineWith != h2.hint)
+        {
+            List<CinemaController.EventDescriptor> eventsCopy = new List<CinemaController.EventDescriptor>();
+            foreach (CinemaController.EventDescriptor ed in defaultUnfused.events)
+                eventsCopy.Add(ed);
+
+            GameObject.FindGameObjectWithTag("HintButton").GetComponent<FolderScript>().openHints();
+            h1 = null;
+            h2 = null;
+            FindObjectOfType<CinemaController>().events = eventsCopy;
+            FindObjectOfType<CinemaController>().LaunchSequenceOfEvent();
+            return;
+        }
+
+        else
+        {
+            DetectiveHolderBehaviour detective = FindObjectOfType<DetectiveHolderBehaviour>();
+            detective.hints.Remove(h1.hint);
+            detective.hints.Remove(h2.hint);
+            detective.hints.Add(h1.hint.givesBack);
+
+            List<CinemaController.EventDescriptor> eventsCopy = new List<CinemaController.EventDescriptor>();
+            foreach (CinemaController.EventDescriptor ed in h1.hint.actionIfFused.events)
+                eventsCopy.Add(ed);
+
+            FindObjectOfType<CinemaController>().events = eventsCopy;
+            FindObjectOfType<CinemaController>().LaunchSequenceOfEvent();
+            GameObject.FindGameObjectWithTag("HintButton").GetComponent<FolderScript>().openHints();
+            return;
+        }
     }
 }

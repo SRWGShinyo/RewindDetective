@@ -5004,6 +5004,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
         type: 3}
+      propertyPath: events.Array.size
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
       propertyPath: charactersToInteract.Array.data[0]
       value: 
       objectReference: {fileID: 1078450187}
@@ -5037,6 +5042,295 @@ PrefabInstance:
       propertyPath: charactersToInteract.Array.data[1]
       value: 
       objectReference: {fileID: 3814714892281532560}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: playOnAwake
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[0].characterIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[0].eventType_
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[0].whatToSay
+      value: Hi detective. Thank you for coming so quickly.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[1].characterIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[1].eventType_
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[2].eventType_
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[2].whatToSay
+      value: No problem officer. That's the magic of flashbacks !
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[3].eventType_
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[4].eventType_
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[4].whatToSay
+      value: What ?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[4].characterIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[5].characterIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[5].eventType_
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[6].characterIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[6].eventType_
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[7].characterIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[7].eventType_
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[8].characterIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[8].eventType_
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[9].characterIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[9].eventType_
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[10].characterIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[10].eventType_
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[11].characterIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[11].eventType_
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[12].characterIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[12].eventType_
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[13].characterIndex
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[13].eventType_
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[6].whatToSay
+      value: Nothing. So, what is it ?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[8].whatToSay
+      value: The victim is Paul Potens. A business man. He was found here, lying dead.
+        Forensics are on their way.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[10].whatToSay
+      value: Yeah, okay ! Let's get to business.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[12].whatToSay
+      value: I will be here if needed.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[14].characterIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[14].eventType_
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[15].characterIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[15].eventType_
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[16].characterIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[16].eventType_
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[17].characterIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[17].eventType_
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[14].whatToSay
+      value: Okay so...basics...I can move by clicking on the ground...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[15].whatToSay
+      value: I can see my papers by clicking on my folder...I can see profiles and
+        hints there...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[16].whatToSay
+      value: I can interact on green object by clicking on them...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[17].whatToSay
+      value: Finally, I can see a profile's detail by clicking on it, and I can 'think'
+        about hints by clicking on two of them.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[18].characterIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[18].eventType_
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[18].whatToSay
+      value: Whatever that means. Let's go !
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[19].characterIndex
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[19].eventType_
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[19].whatToSay
+      value: Oh and when I'm done, I can just click on the door to proceed !
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[20].eventType_
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[20].whatToSay
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[20].profileToGive
+      value: 
+      objectReference: {fileID: 11400000, guid: 502082a74afc51941954406d8877e8ca,
+        type: 2}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[21].eventType_
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[21].profileToGive
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01086c4da5f838743b7bca6eb739c140, type: 3}
 --- !u!1001 &925468328
@@ -9661,8 +9955,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 5, y: 1.62, z: 0.16360474}
-  m_Center: {x: -2.5, y: 0.8, z: 0.08180237}
+  m_Size: {x: 1.25, y: 1.62, z: 0.16360474}
+  m_Center: {x: -0.63, y: 0.8, z: 0.08180237}
 --- !u!1001 &728931227957266144
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10259,7 +10553,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   portrait: {fileID: 21300000, guid: cff229df67e5e624e8ddb49326aad76a, type: 3}
   characterName: Rhand Omguy
-  anim: {fileID: 0}
+  anim: {fileID: 3864884557893788477}
   startsAngry: 0
   startsCrying: 0
   startsThinking: 0
@@ -10653,6 +10947,13 @@ MonoBehaviour:
       isSpeaking: 0
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
+    - characterIndex: 0
+      eventType_: 10
+      whatToSay: 
+      finalpos: {x: 0, y: 0, z: 0}
+      isSpeaking: 0
+      hintToGive: {fileID: 0}
+      profileToGive: {fileID: 11400000, guid: b8c921a48d393d848a72eb84f1bdab40, type: 2}
     - characterIndex: 0
       eventType_: 4
       whatToSay: 

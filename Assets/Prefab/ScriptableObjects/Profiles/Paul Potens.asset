@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09f5531c115cb4b42ac0719c2a46125f, type: 3}
+  m_Name: Paul Potens
+  m_EditorClassIdentifier: 
+  portrait: {fileID: 21300000, guid: 6786f4bbbb03ead42872598c91d34242, type: 3}
+  characName: Paul Potens
+  profile:
+    portrait: {fileID: 21300000, guid: 6786f4bbbb03ead42872598c91d34242, type: 3}
+    characName: Paul Potens
+    size: 176
+    weight: 80
+    age: 42
+    description: The victim. A business man, that was found dead in his office. Poor
+      guy...He loves salami pizza.

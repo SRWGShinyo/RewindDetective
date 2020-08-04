@@ -8,8 +8,9 @@ public class InteractableController : MonoBehaviour
     Queue<Material> store = new Queue<Material>();
     CinemaController cinema;
 
-    Interactable interacted = null;
+    public Interactable interacted = null;
     public bool isInteracting;
+    public bool isMoving;
 
     private void Start()
     {
@@ -18,9 +19,9 @@ public class InteractableController : MonoBehaviour
 
     void Update()
     {
-        if (!isInteracting && !cinema.isEventing && GetOnInteractable() && Input.GetMouseButtonDown(0))
+        if (!isMoving && !isInteracting && !cinema.isEventing && GetOnInteractable() && Input.GetMouseButtonDown(0))
         {
-            isInteracting = true;
+            isMoving = true;
             goBackToProperColor(interacted.transform);
             FindObjectOfType<DetectiveMovement>().GoTopoint(interacted.toPosition.transform.position);
         }
@@ -68,10 +69,17 @@ public class InteractableController : MonoBehaviour
     private void changeColorForInteracted(Transform transform)
     {
         MeshRenderer meshr = transform.gameObject.GetComponent<MeshRenderer>();
+        SkinnedMeshRenderer meshskin = transform.gameObject.GetComponent<SkinnedMeshRenderer>();
         if (meshr != null)
         {
             store.Enqueue(meshr.material);
             meshr.material = selected;
+        }
+
+        else if (meshskin != null)
+        {
+            store.Enqueue(meshskin.material);
+            meshskin.material = selected;
         }
 
         foreach (Transform tr in transform)
@@ -86,6 +94,8 @@ public class InteractableController : MonoBehaviour
     private void goBackToProperColor(Transform transform)
     {
         MeshRenderer meshr = transform.gameObject.GetComponent<MeshRenderer>();
+        SkinnedMeshRenderer meshskin = transform.gameObject.GetComponent<SkinnedMeshRenderer>();
+
         if (store.Count == 0)
             return;
 
@@ -93,6 +103,12 @@ public class InteractableController : MonoBehaviour
         {
             Material mat = store.Dequeue();
             meshr.material = mat;
+        }
+
+        else if (meshskin != null)
+        {
+            Material mat = store.Dequeue();
+            meshskin.material = mat;
         }
 
         foreach (Transform tr in transform)
@@ -106,6 +122,11 @@ public class InteractableController : MonoBehaviour
 
     public void PingMovement()
     {
+        if (!isMoving || isInteracting)
+            return;
+
+        isMoving = false;
+        isInteracting = true;
         interacted.PlayNext();
     }
 

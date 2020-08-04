@@ -36,7 +36,8 @@ public class CinemaController : MonoBehaviour
             CRYING,
             LEAVE,
             FADE,
-            HINT
+            HINT,
+            PROFILE
         }
 
         public int characterIndex;
@@ -45,6 +46,7 @@ public class CinemaController : MonoBehaviour
         public Vector3 finalpos;
         public bool isSpeaking;
         public HintDescription hintToGive;
+        public ProfileElement profileToGive;
     }
 
     void Start()
@@ -90,6 +92,10 @@ public class CinemaController : MonoBehaviour
                 FindObjectOfType<DetectiveHolderBehaviour>().hints.Add(toPlay.hintToGive);
                 StartCoroutine(newHintPanel.GetComponent<HInt>().AppearAndDisappear());
                 uiSetter.Disappear();
+                LaunchNextEvent();
+                break;
+            case EventDescriptor.eventType.PROFILE:
+                FindObjectOfType<DetectiveHolderBehaviour>().profiles.Add(toPlay.profileToGive);
                 LaunchNextEvent();
                 break;
             case EventDescriptor.eventType.LEAVE:

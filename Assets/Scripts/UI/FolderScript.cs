@@ -18,7 +18,8 @@ public class FolderScript : MonoBehaviour
 
     public void openFolder()
     {
-        if (FindObjectOfType<CinemaController>().isEventing || FindObjectOfType<InteractableController>().isMoving || FindObjectOfType<InteractableController>().isInteracting)
+        if (FindObjectOfType<CinemaController>().isEventing || FindObjectOfType<InteractableController>().isInteracting ||
+            FindObjectOfType<InteractableController>().isInteracting)
             return;
         EventSystem.current.SetSelectedGameObject(null);
         folderPanel.SetActive(true);

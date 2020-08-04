@@ -27,9 +27,11 @@ public class DetectiveMovement : MonoBehaviour
 
     private void GroundHasBeenChecked()
     {
-        if (Input.GetMouseButtonDown(0) && !FindObjectOfType<InteractableController>().isInteracting)
+        if (Input.GetMouseButtonDown(0) &&
+            !FindObjectOfType<InteractableController>().isInteracting &&
+            !FindObjectOfType<InteractableController>().isMoving)
         {
-            if (FindObjectOfType<FolderScript>().folderPanel.active)
+            if (FindObjectOfType<FolderScript>().folderPanel.activeSelf)
                 return;
             RaycastHit hit;
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);

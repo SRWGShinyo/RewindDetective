@@ -30,7 +30,15 @@ public class InteractableController : MonoBehaviour
         {
             isMoving = true;
             goBackToProperColor(interacted.transform);
-            FindObjectOfType<DetectiveMovement>().GoTopoint(interacted.toPosition.transform.position);
+            if (interacted.toPosition == null)
+            {
+                isMoving = false;
+                isInteracting = true;
+                interacted.PlayDoor();
+            }
+            else
+                FindObjectOfType<DetectiveMovement>().GoTopoint(interacted.toPosition.transform.position);
+
             FindObjectOfType<FolderScript>().closeFolder();
         }
     }

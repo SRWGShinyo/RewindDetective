@@ -431,6 +431,248 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 36175145}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &47121943
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 47121944}
+  - component: {fileID: 47121945}
+  - component: {fileID: 47121946}
+  m_Layer: 0
+  m_Name: Door
+  m_TagString: Interactable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &47121944
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47121943}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1416238639}
+  - {fileID: 1592150297}
+  m_Father: {fileID: 501567203}
+  m_RootOrder: 89
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &47121945
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47121943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc283867d9b3d2f45a42f57a1fbbe047, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toPosition: {fileID: 0}
+  actions: []
+  deflt:
+    events: []
+  ifNotFused:
+    events:
+    - characterIndex: 0
+      eventType_: 5
+      whatToSay: I found everything in here.
+      finalpos: {x: 0, y: 0, z: 0}
+      isSpeaking: 1
+      hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
+    - characterIndex: 0
+      eventType_: 5
+      whatToSay: But I still think I should try to think about some of the hints I
+        have...
+      finalpos: {x: 0, y: 0, z: 0}
+      isSpeaking: 1
+      hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
+    - characterIndex: 0
+      eventType_: 5
+      whatToSay: Let's open my folder and click on them  !
+      finalpos: {x: 0, y: 0, z: 0}
+      isSpeaking: 1
+      hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
+    - characterIndex: 0
+      eventType_: 4
+      whatToSay: 
+      finalpos: {x: 0, y: 0, z: 0}
+      isSpeaking: 0
+      hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
+  letsLeave:
+    events:
+    - characterIndex: 0
+      eventType_: 5
+      whatToSay: Okay, got all ! Let's go !
+      finalpos: {x: 0, y: 0, z: 0}
+      isSpeaking: 0
+      hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
+    - characterIndex: 0
+      eventType_: 8
+      whatToSay: 
+      finalpos: {x: 0, y: 0, z: 0}
+      isSpeaking: 0
+      hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
+    - characterIndex: 0
+      eventType_: 4
+      whatToSay: 
+      finalpos: {x: 0, y: 0, z: 0}
+      isSpeaking: 0
+      hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
+  toHaveToLeave:
+  - {fileID: 11400000, guid: 6c36a3a9e84bbd3488bd71454696e830, type: 2}
+  - {fileID: 11400000, guid: db04f72cfec41304b9452e5063f64953, type: 2}
+  - {fileID: 11400000, guid: cc69ab3ed13edd641a1868b0675c0445, type: 2}
+  - {fileID: 11400000, guid: 9a7eda972cd9727489e81b596f1a04b5, type: 2}
+  - {fileID: 11400000, guid: ddc3e434a6de20946925349bb1f18bd1, type: 2}
+  toInteractProperly:
+  - interactable: {fileID: 1238897986}
+    actionToDisplay:
+      events:
+      - characterIndex: 0
+        eventType_: 0
+        whatToSay: I still have things to find...
+        finalpos: {x: 0, y: 0, z: 0}
+        isSpeaking: 0
+        hintToGive: {fileID: 0}
+        profileToGive: {fileID: 0}
+      - characterIndex: 0
+        eventType_: 0
+        whatToSay: What about those chairs ?
+        finalpos: {x: 0, y: 0, z: 0}
+        isSpeaking: 0
+        hintToGive: {fileID: 0}
+        profileToGive: {fileID: 0}
+      - characterIndex: 0
+        eventType_: 4
+        whatToSay: 
+        finalpos: {x: 0, y: 0, z: 0}
+        isSpeaking: 0
+        hintToGive: {fileID: 0}
+        profileToGive: {fileID: 0}
+    countRef: 1
+  - interactable: {fileID: 1751011550}
+    actionToDisplay:
+      events:
+      - characterIndex: 0
+        eventType_: 0
+        whatToSay: I still have things to search.
+        finalpos: {x: 0, y: 0, z: 0}
+        isSpeaking: 0
+        hintToGive: {fileID: 0}
+        profileToGive: {fileID: 0}
+      - characterIndex: 0
+        eventType_: 0
+        whatToSay: This statue lying on the floor is...strange...
+        finalpos: {x: 0, y: 0, z: 0}
+        isSpeaking: 0
+        hintToGive: {fileID: 0}
+        profileToGive: {fileID: 0}
+      - characterIndex: 0
+        eventType_: 4
+        whatToSay: 
+        finalpos: {x: 0, y: 0, z: 0}
+        isSpeaking: 0
+        hintToGive: {fileID: 0}
+        profileToGive: {fileID: 0}
+    countRef: 1
+  - interactable: {fileID: 1956873023}
+    actionToDisplay:
+      events:
+      - characterIndex: 0
+        eventType_: 0
+        whatToSay: I can still search.
+        finalpos: {x: 0, y: 0, z: 0}
+        isSpeaking: 0
+        hintToGive: {fileID: 0}
+        profileToGive: {fileID: 0}
+      - characterIndex: 0
+        eventType_: 0
+        whatToSay: The desk ! Let's go !
+        finalpos: {x: 0, y: 0, z: 0}
+        isSpeaking: 0
+        hintToGive: {fileID: 0}
+        profileToGive: {fileID: 0}
+      - characterIndex: 0
+        eventType_: 4
+        whatToSay: 
+        finalpos: {x: 0, y: 0, z: 0}
+        isSpeaking: 0
+        hintToGive: {fileID: 0}
+        profileToGive: {fileID: 0}
+    countRef: 1
+  - interactable: {fileID: 405847665}
+    actionToDisplay:
+      events:
+      - characterIndex: 0
+        eventType_: 0
+        whatToSay: I still didn't search the body !
+        finalpos: {x: 0, y: 0, z: 0}
+        isSpeaking: 0
+        hintToGive: {fileID: 0}
+        profileToGive: {fileID: 0}
+      - characterIndex: 0
+        eventType_: 4
+        whatToSay: 
+        finalpos: {x: 0, y: 0, z: 0}
+        isSpeaking: 0
+        hintToGive: {fileID: 0}
+        profileToGive: {fileID: 0}
+    countRef: 1
+  - interactable: {fileID: 321440709}
+    actionToDisplay:
+      events:
+      - characterIndex: 0
+        eventType_: 0
+        whatToSay: I can still search...
+        finalpos: {x: 0, y: 0, z: 0}
+        isSpeaking: 0
+        hintToGive: {fileID: 0}
+        profileToGive: {fileID: 0}
+      - characterIndex: 0
+        eventType_: 0
+        whatToSay: This pillar seems to be missing something...I should look at it.
+        finalpos: {x: 0, y: 0, z: 0}
+        isSpeaking: 0
+        hintToGive: {fileID: 0}
+        profileToGive: {fileID: 0}
+      - characterIndex: 0
+        eventType_: 4
+        whatToSay: 
+        finalpos: {x: 0, y: 0, z: 0}
+        isSpeaking: 0
+        hintToGive: {fileID: 0}
+        profileToGive: {fileID: 0}
+    countRef: 2
+--- !u!65 &47121946
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47121943}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.03, y: 6.93, z: 1}
+  m_Center: {x: 13.31, y: 0, z: 34.49}
 --- !u!1001 &49987904
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1961,6 +2203,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 389772383}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &405847665 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 139058, guid: 8f47f0431ffe1d3468b2b73df367c3df,
+    type: 3}
+  m_PrefabInstance: {fileID: 1681846969}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &416347719
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2664,7 +2912,7 @@ Transform:
   m_Children:
   - {fileID: 1503322610}
   - {fileID: 56454131}
-  - {fileID: 1416238639}
+  - {fileID: 772011221}
   - {fileID: 908868446}
   - {fileID: 33553528}
   - {fileID: 521981413}
@@ -2676,12 +2924,12 @@ Transform:
   - {fileID: 702938127}
   - {fileID: 656039247}
   - {fileID: 2132184536}
-  - {fileID: 772011221}
   - {fileID: 825189107}
-  - {fileID: 646202959}
   - {fileID: 1750741752}
+  - {fileID: 646202959}
   - {fileID: 361576970}
   - {fileID: 646464891}
+  - {fileID: 2101468769}
   - {fileID: 365898745}
   - {fileID: 1249191283}
   - {fileID: 812791572}
@@ -2720,10 +2968,9 @@ Transform:
   - {fileID: 588737215}
   - {fileID: 2119807686}
   - {fileID: 1069727911}
-  - {fileID: 2101468769}
-  - {fileID: 1592150297}
-  - {fileID: 305212307}
   - {fileID: 549662451}
+  - {fileID: 4200809231665358}
+  - {fileID: 305212307}
   - {fileID: 1435662491}
   - {fileID: 1606497465}
   - {fileID: 2037890564}
@@ -2733,6 +2980,7 @@ Transform:
   - {fileID: 525760513}
   - {fileID: 1220966407}
   - {fileID: 2013878352}
+  - {fileID: 4032880543801392}
   - {fileID: 468758359}
   - {fileID: 1804762355}
   - {fileID: 1252490014}
@@ -2751,13 +2999,12 @@ Transform:
   - {fileID: 636846678}
   - {fileID: 592437981}
   - {fileID: 1959687923}
-  - {fileID: 4200809231665358}
+  - {fileID: 47121944}
   - {fileID: 1897701847}
   - {fileID: 487370690}
   - {fileID: 585488828}
   - {fileID: 416347720}
   - {fileID: 1130626575}
-  - {fileID: 4032880543801392}
   - {fileID: 1365049657}
   - {fileID: 694071013}
   - {fileID: 1484152460}
@@ -2986,7 +3233,7 @@ Transform:
   m_Children:
   - {fileID: 1440319896}
   m_Father: {fileID: 501567203}
-  m_RootOrder: 61
+  m_RootOrder: 58
   m_LocalEulerAnglesHint: {x: 0, y: 172.31601, z: 0}
 --- !u!1 &549888457
 GameObject:
@@ -4237,7 +4484,7 @@ Transform:
   m_Children:
   - {fileID: 1621139423}
   m_Father: {fileID: 501567203}
-  m_RootOrder: 14
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -87.15401, z: 0}
 --- !u!1 &772215465
 GameObject:
@@ -4658,7 +4905,7 @@ Transform:
   - {fileID: 825138761}
   - {fileID: 1506995887}
   m_Father: {fileID: 501567203}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &834146393
 PrefabInstance:
@@ -6465,6 +6712,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1233730712}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1238897986 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 160722, guid: 779cfe5c6f421df498e6d1bad7df7396,
+    type: 3}
+  m_PrefabInstance: {fileID: 361576969}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1239859211 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1239859211, guid: 779cfe5c6f421df498e6d1bad7df7396,
@@ -7026,11 +7279,15 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 501567203}
+    m_TransformParent: {fileID: 47121944}
     m_Modifications:
     - target: {fileID: 143170, guid: 27b2bb42c14d1c9428d3fd44cc99028a, type: 3}
       propertyPath: m_Name
       value: SM_Env_Door_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 143170, guid: 27b2bb42c14d1c9428d3fd44cc99028a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 460966, guid: 27b2bb42c14d1c9428d3fd44cc99028a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7062,7 +7319,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 460966, guid: 27b2bb42c14d1c9428d3fd44cc99028a, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 460966, guid: 27b2bb42c14d1c9428d3fd44cc99028a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7087,6 +7344,11 @@ PrefabInstance:
     - target: {fileID: 460966, guid: 27b2bb42c14d1c9428d3fd44cc99028a, type: 3}
       propertyPath: m_LocalScale.z
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 65337944395061444, guid: 27b2bb42c14d1c9428d3fd44cc99028a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27b2bb42c14d1c9428d3fd44cc99028a, type: 3}
@@ -7573,11 +7835,15 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 501567203}
+    m_TransformParent: {fileID: 47121944}
     m_Modifications:
     - target: {fileID: 143170, guid: 27b2bb42c14d1c9428d3fd44cc99028a, type: 3}
       propertyPath: m_Name
       value: SM_Env_Door_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 143170, guid: 27b2bb42c14d1c9428d3fd44cc99028a, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 460966, guid: 27b2bb42c14d1c9428d3fd44cc99028a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7609,7 +7875,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 460966, guid: 27b2bb42c14d1c9428d3fd44cc99028a, type: 3}
       propertyPath: m_RootOrder
-      value: 59
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 460966, guid: 27b2bb42c14d1c9428d3fd44cc99028a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -7634,6 +7900,11 @@ PrefabInstance:
     - target: {fileID: 460966, guid: 27b2bb42c14d1c9428d3fd44cc99028a, type: 3}
       propertyPath: m_LocalScale.z
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 65337944395061444, guid: 27b2bb42c14d1c9428d3fd44cc99028a,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27b2bb42c14d1c9428d3fd44cc99028a, type: 3}
@@ -7969,7 +8240,7 @@ Transform:
   m_Children:
   - {fileID: 1190211310}
   m_Father: {fileID: 501567203}
-  m_RootOrder: 17
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 82.68301, y: -303.062, z: 14.530001}
 --- !u!1 &1751011550
 GameObject:
@@ -9163,7 +9434,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_Children: []
   m_Father: {fileID: 501567203}
-  m_RootOrder: 58
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2101822317
 GameObject:
@@ -9751,7 +10022,7 @@ Transform:
   m_Children:
   - {fileID: 1458690364}
   m_Father: {fileID: 501567203}
-  m_RootOrder: 95
+  m_RootOrder: 70
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &4200809231665358
 Transform:
@@ -9766,7 +10037,7 @@ Transform:
   m_Children:
   - {fileID: 124424094}
   m_Father: {fileID: 501567203}
-  m_RootOrder: 89
+  m_RootOrder: 59
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!23 &23438049731066706
 MeshRenderer:

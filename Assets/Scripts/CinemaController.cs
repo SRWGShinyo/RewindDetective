@@ -148,6 +148,9 @@ public class CinemaController : MonoBehaviour
             case EventDescriptor.eventType.FADE:
                 uiSetter.Disappear();
                 StartCoroutine(Fade(toFadeIn));
+                if (FindObjectOfType<InteractableController>().isInteracting)
+                    FindObjectOfType<InteractableController>().PingAction();
+                isEventing = false;
                 break;
         }
     }

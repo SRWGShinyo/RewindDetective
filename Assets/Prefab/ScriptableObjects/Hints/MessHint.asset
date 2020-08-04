@@ -14,5 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   image: {fileID: 21300000, guid: 022b49f60c12c204fa6ea866832ea046, type: 3}
   description: Was there a fight in here ?
-  combineWith: {fileID: 0}
-  givesBack: {fileID: 0}
+  combineWith: {fileID: 11400000, guid: 668b40458fd5b3f4fb5661588f8da2e3, type: 2}
+  givesBack: {fileID: 11400000, guid: ddc3e434a6de20946925349bb1f18bd1, type: 2}
+  actionIfFused:
+    events:
+    - characterIndex: 0
+      eventType_: 5
+      whatToSay: Yes, indeed. Those chairs, the statue near the desk...
+      finalpos: {x: 0, y: 0, z: 0}
+      isSpeaking: 1
+      hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
+    - characterIndex: 0
+      eventType_: 5
+      whatToSay: There was a fight, and our victim was struck.
+      finalpos: {x: 0, y: 0, z: 0}
+      isSpeaking: 1
+      hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
+    - characterIndex: 0
+      eventType_: 4
+      whatToSay: 
+      finalpos: {x: 0, y: 0, z: 0}
+      isSpeaking: 0
+      hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}

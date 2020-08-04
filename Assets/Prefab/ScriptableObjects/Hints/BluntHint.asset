@@ -14,7 +14,28 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   image: {fileID: 21300000, guid: b8f50270a5988a547959c2b625ee5f6c, type: 3}
   description: The statue at the desk was used to strike the victim
-  combineWith: {fileID: 0}
-  givesBack: {fileID: 0}
+  combineWith: {fileID: 11400000, guid: b407d616ddd78014a8f2120335be842a, type: 2}
+  givesBack: {fileID: 11400000, guid: ddc3e434a6de20946925349bb1f18bd1, type: 2}
   actionIfFused:
-    events: []
+    events:
+    - characterIndex: 0
+      eventType_: 5
+      whatToSay: Yes, indeed. Those chairs, the statue near the desk...
+      finalpos: {x: 0, y: 0, z: 0}
+      isSpeaking: 1
+      hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
+    - characterIndex: 0
+      eventType_: 5
+      whatToSay: There was a fight, and our victim was struck.
+      finalpos: {x: 0, y: 0, z: 0}
+      isSpeaking: 1
+      hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
+    - characterIndex: 0
+      eventType_: 4
+      whatToSay: 
+      finalpos: {x: 0, y: 0, z: 0}
+      isSpeaking: 0
+      hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}

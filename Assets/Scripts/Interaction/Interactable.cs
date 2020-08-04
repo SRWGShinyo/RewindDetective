@@ -39,4 +39,9 @@ public class Interactable : MonoBehaviour
 
         cinemator.LaunchSequenceOfEvent();
     }
+
+    public virtual void PlayDoor()
+    {
+        Debug.LogError("Not a door");
+    }
 }

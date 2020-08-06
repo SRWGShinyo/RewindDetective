@@ -802,7 +802,7 @@ PrefabInstance:
     - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
         type: 3}
       propertyPath: events.Array.size
-      value: 12
+      value: 15
       objectReference: {fileID: 0}
     - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
         type: 3}
@@ -1003,7 +1003,7 @@ PrefabInstance:
     - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
         type: 3}
       propertyPath: events.Array.data[11].eventType_
-      value: 4
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
         type: 3}
@@ -1015,6 +1015,39 @@ PrefabInstance:
       propertyPath: events.Array.data[4].characterIndex
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[12].eventType_
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[13].eventType_
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[14].eventType_
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[11].profileToGive
+      value: 
+      objectReference: {fileID: 11400000, guid: 9359f1950f99b4a4abdd01b334ecdd64,
+        type: 2}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[12].profileToGive
+      value: 
+      objectReference: {fileID: 11400000, guid: 8f70f4fa4b0f622439bc2f9cce027760,
+        type: 2}
+    - target: {fileID: 5045719197858803959, guid: 01086c4da5f838743b7bca6eb739c140,
+        type: 3}
+      propertyPath: events.Array.data[13].profileToGive
+      value: 
+      objectReference: {fileID: 11400000, guid: 0f13c6d19751b5b428431bdce8ef771a,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 01086c4da5f838743b7bca6eb739c140, type: 3}
 --- !u!1001 &249862348

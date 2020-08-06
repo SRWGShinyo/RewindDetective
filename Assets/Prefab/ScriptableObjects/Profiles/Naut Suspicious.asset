@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09f5531c115cb4b42ac0719c2a46125f, type: 3}
+  m_Name: Naut Suspicious
+  m_EditorClassIdentifier: 
+  portrait: {fileID: 21300000, guid: eb80bc7e460197041a6cc627dae36634, type: 3}
+  characName: Naut Suspicious
+  profile:
+    portrait: {fileID: 21300000, guid: eb80bc7e460197041a6cc627dae36634, type: 3}
+    characName: Naut Suspicious
+    size: 184
+    weight: 80
+    age: 38
+    description: Naut Suspicious works...in a kind of disco bar. He also is an agent
+      for a company that loans money to people. A suspect in our case.

@@ -10,9 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18568a7d5dbde8040b99c68262cf7b87, type: 3}
-  m_Name: StolenPaperHint
+  m_Name: AllHoursMatch
   m_EditorClassIdentifier: 
-  image: {fileID: 21300000, guid: b1932f0660ec8d146a90d931d962c07e, type: 3}
-  description: The culprit stole a page from a folder in the victim's office.
+  image: {fileID: 21300000, guid: 4ba2e6a916f465c4e8ec5b2a98f672fe, type: 3}
+  description: Naut left at 10:15PM. Cry at 10PM. Jacques at 3PM.
   combineWith: {fileID: 0}
   givesBack: {fileID: 0}
+  actionIfFused:
+    events: []

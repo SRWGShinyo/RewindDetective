@@ -10,10 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18568a7d5dbde8040b99c68262cf7b87, type: 3}
-  m_Name: FightHint
+  m_Name: DrinkHint
   m_EditorClassIdentifier: 
-  image: {fileID: 21300000, guid: 022b49f60c12c204fa6ea866832ea046, type: 3}
-  description: There was a fight and the victim was struck.
+  image: {fileID: 21300000, guid: 5c219b80f3af2aa4590a2aa76821aa2a, type: 3}
+  description: The victim had a drink with someone here. I never saw that color.
   combineWith: {fileID: 0}
   givesBack: {fileID: 0}
   actionIfFused:

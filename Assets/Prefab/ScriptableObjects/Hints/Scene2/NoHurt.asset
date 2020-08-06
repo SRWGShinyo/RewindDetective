@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18568a7d5dbde8040b99c68262cf7b87, type: 3}
+  m_Name: NoHurt
+  m_EditorClassIdentifier: 
+  image: {fileID: 21300000, guid: 6786f4bbbb03ead42872598c91d34242, type: 3}
+  description: No bruises were found on the victim.
+  combineWith: {fileID: 11400000, guid: ddc3e434a6de20946925349bb1f18bd1, type: 2}
+  givesBack: {fileID: 11400000, guid: 03aff6c651352df4783eb2fdbbdf9bf5, type: 2}
+  actionIfFused:
+    events:
+    - characterIndex: 0
+      eventType_: 5
+      whatToSay: No bruises on the body. The fight was staged.
+      finalpos: {x: 0, y: 0, z: 0}
+      isSpeaking: 1
+      hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
+    - characterIndex: 0
+      eventType_: 4
+      whatToSay: 
+      finalpos: {x: 0, y: 0, z: 0}
+      isSpeaking: 0
+      hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}

@@ -28,6 +28,7 @@ public class DetectiveMovement : MonoBehaviour
     private void GroundHasBeenChecked()
     {
         if (Input.GetMouseButtonDown(0) &&
+            !FindObjectOfType<CinemaController>().isEventing &&
             !FindObjectOfType<InteractableController>().isInteracting &&
             !FindObjectOfType<InteractableController>().isMoving)
         {

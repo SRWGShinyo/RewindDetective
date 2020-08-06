@@ -10,9 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 18568a7d5dbde8040b99c68262cf7b87, type: 3}
-  m_Name: JewelHint
+  m_Name: DeathCauseHint
   m_EditorClassIdentifier: 
-  image: {fileID: 21300000, guid: fef4ec4632911ae4e961e8bd4091a12f, type: 3}
-  description: The culprit fled with a jewel
+  image: {fileID: 21300000, guid: 488e6d002cc784241a722c42f9723883, type: 3}
+  description: Victim was most probably poisoned.
   combineWith: {fileID: 0}
   givesBack: {fileID: 0}
+  actionIfFused:
+    events: []

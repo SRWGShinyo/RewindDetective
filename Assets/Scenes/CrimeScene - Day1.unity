@@ -484,6 +484,8 @@ MonoBehaviour:
   ifNotFused:
     events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 5
       whatToSay: I found everything in here.
       finalpos: {x: 0, y: 0, z: 0}
@@ -491,6 +493,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 5
       whatToSay: But I still think I should try to think about some of the hints I
         have...
@@ -499,6 +503,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 5
       whatToSay: Let's open my folder and click on them  !
       finalpos: {x: 0, y: 0, z: 0}
@@ -506,6 +512,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -515,6 +523,8 @@ MonoBehaviour:
   letsLeave:
     events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 5
       whatToSay: Okay, got all ! Let's go !
       finalpos: {x: 0, y: 0, z: 0}
@@ -522,6 +532,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 5
+      indexButtons: 0
       eventType_: 8
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -529,6 +541,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -546,6 +560,8 @@ MonoBehaviour:
     actionToDisplay:
       events:
       - characterIndex: 0
+        sceneToLoadAfterFade: 0
+        indexButtons: 0
         eventType_: 0
         whatToSay: I still have things to find...
         finalpos: {x: 0, y: 0, z: 0}
@@ -553,6 +569,8 @@ MonoBehaviour:
         hintToGive: {fileID: 0}
         profileToGive: {fileID: 0}
       - characterIndex: 0
+        sceneToLoadAfterFade: 0
+        indexButtons: 0
         eventType_: 0
         whatToSay: What about those chairs ?
         finalpos: {x: 0, y: 0, z: 0}
@@ -560,6 +578,8 @@ MonoBehaviour:
         hintToGive: {fileID: 0}
         profileToGive: {fileID: 0}
       - characterIndex: 0
+        sceneToLoadAfterFade: 0
+        indexButtons: 0
         eventType_: 4
         whatToSay: 
         finalpos: {x: 0, y: 0, z: 0}
@@ -571,6 +591,8 @@ MonoBehaviour:
     actionToDisplay:
       events:
       - characterIndex: 0
+        sceneToLoadAfterFade: 0
+        indexButtons: 0
         eventType_: 0
         whatToSay: I still have things to search.
         finalpos: {x: 0, y: 0, z: 0}
@@ -578,6 +600,8 @@ MonoBehaviour:
         hintToGive: {fileID: 0}
         profileToGive: {fileID: 0}
       - characterIndex: 0
+        sceneToLoadAfterFade: 0
+        indexButtons: 0
         eventType_: 0
         whatToSay: This statue lying on the floor is...strange...
         finalpos: {x: 0, y: 0, z: 0}
@@ -585,6 +609,8 @@ MonoBehaviour:
         hintToGive: {fileID: 0}
         profileToGive: {fileID: 0}
       - characterIndex: 0
+        sceneToLoadAfterFade: 0
+        indexButtons: 0
         eventType_: 4
         whatToSay: 
         finalpos: {x: 0, y: 0, z: 0}
@@ -596,6 +622,8 @@ MonoBehaviour:
     actionToDisplay:
       events:
       - characterIndex: 0
+        sceneToLoadAfterFade: 0
+        indexButtons: 0
         eventType_: 0
         whatToSay: I can still search.
         finalpos: {x: 0, y: 0, z: 0}
@@ -603,6 +631,8 @@ MonoBehaviour:
         hintToGive: {fileID: 0}
         profileToGive: {fileID: 0}
       - characterIndex: 0
+        sceneToLoadAfterFade: 0
+        indexButtons: 0
         eventType_: 0
         whatToSay: The desk ! Let's go !
         finalpos: {x: 0, y: 0, z: 0}
@@ -610,6 +640,8 @@ MonoBehaviour:
         hintToGive: {fileID: 0}
         profileToGive: {fileID: 0}
       - characterIndex: 0
+        sceneToLoadAfterFade: 0
+        indexButtons: 0
         eventType_: 4
         whatToSay: 
         finalpos: {x: 0, y: 0, z: 0}
@@ -621,6 +653,8 @@ MonoBehaviour:
     actionToDisplay:
       events:
       - characterIndex: 0
+        sceneToLoadAfterFade: 0
+        indexButtons: 0
         eventType_: 0
         whatToSay: I still didn't search the body !
         finalpos: {x: 0, y: 0, z: 0}
@@ -628,6 +662,8 @@ MonoBehaviour:
         hintToGive: {fileID: 0}
         profileToGive: {fileID: 0}
       - characterIndex: 0
+        sceneToLoadAfterFade: 0
+        indexButtons: 0
         eventType_: 4
         whatToSay: 
         finalpos: {x: 0, y: 0, z: 0}
@@ -639,6 +675,8 @@ MonoBehaviour:
     actionToDisplay:
       events:
       - characterIndex: 0
+        sceneToLoadAfterFade: 0
+        indexButtons: 0
         eventType_: 0
         whatToSay: I can still search...
         finalpos: {x: 0, y: 0, z: 0}
@@ -646,6 +684,8 @@ MonoBehaviour:
         hintToGive: {fileID: 0}
         profileToGive: {fileID: 0}
       - characterIndex: 0
+        sceneToLoadAfterFade: 0
+        indexButtons: 0
         eventType_: 0
         whatToSay: This pillar seems to be missing something...I should look at it.
         finalpos: {x: 0, y: 0, z: 0}
@@ -653,6 +693,8 @@ MonoBehaviour:
         hintToGive: {fileID: 0}
         profileToGive: {fileID: 0}
       - characterIndex: 0
+        sceneToLoadAfterFade: 0
+        indexButtons: 0
         eventType_: 4
         whatToSay: 
         finalpos: {x: 0, y: 0, z: 0}
@@ -1616,6 +1658,8 @@ MonoBehaviour:
   actions:
   - events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: What is supposed to be here ?
       finalpos: {x: 0, y: 0, z: 0}
@@ -1623,6 +1667,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 5
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -1630,6 +1676,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 1
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: A very rare and precious jewel. We were not able to find it after
         the crime.
@@ -1638,6 +1686,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 1
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 5
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -1645,6 +1695,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: So the culprit fled with a jewel...Interesting...
       finalpos: {x: 0, y: 0, z: 0}
@@ -1652,6 +1704,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 9
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -1659,6 +1713,8 @@ MonoBehaviour:
       hintToGive: {fileID: 11400000, guid: db04f72cfec41304b9452e5063f64953, type: 2}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -1667,6 +1723,8 @@ MonoBehaviour:
       profileToGive: {fileID: 0}
   - events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: Seeing those other collars gives me some thieving ideas...
       finalpos: {x: 0, y: 0, z: 0}
@@ -1674,6 +1732,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 1
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 5
       whatToSay: '....'
       finalpos: {x: 0, y: 0, z: 0}
@@ -1681,6 +1741,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: What ?
       finalpos: {x: 0, y: 0, z: 0}
@@ -1688,6 +1750,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 1
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 5
       whatToSay: '...'
       finalpos: {x: 0, y: 0, z: 0}
@@ -1695,6 +1759,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: All right, all right. Stop reading my mind !
       finalpos: {x: 0, y: 0, z: 0}
@@ -1702,6 +1768,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: What a shame...
       finalpos: {x: 0, y: 0, z: 0}
@@ -1709,6 +1777,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -1718,6 +1788,8 @@ MonoBehaviour:
   deflt:
     events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: And what if...
       finalpos: {x: 0, y: 0, z: 0}
@@ -1725,6 +1797,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 5
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -1732,6 +1806,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 1
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 5
       whatToSay: No.
       finalpos: {x: 0, y: 0, z: 0}
@@ -1739,6 +1815,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: Fine, fine !
       finalpos: {x: 0, y: 0, z: 0}
@@ -1746,6 +1824,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: A rare jewel is missing...
       finalpos: {x: 0, y: 0, z: 0}
@@ -4584,6 +4664,8 @@ MonoBehaviour:
   actions:
   - events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: What the...why does he have purple gloves in here ?
       finalpos: {x: 0, y: 0, z: 0}
@@ -4591,6 +4673,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: '...now that I think about it...they feel very detective-like...'
       finalpos: {x: 0, y: 0, z: 0}
@@ -4598,6 +4682,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: I can't remember where I saw that...
       finalpos: {x: 0, y: 0, z: 0}
@@ -4605,6 +4691,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -4614,6 +4702,8 @@ MonoBehaviour:
   deflt:
     events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: A detective with purple gloves...
       finalpos: {x: 0, y: 0, z: 0}
@@ -4621,6 +4711,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: I can't remember. Damn.
       finalpos: {x: 0, y: 0, z: 0}
@@ -4628,6 +4720,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -4880,6 +4974,8 @@ MonoBehaviour:
   deflt:
     events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: Everyone, remember to say hydrated !
       finalpos: {x: 0, y: 0, z: 0}
@@ -4887,6 +4983,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 5
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -4894,6 +4992,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 1
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: Who are you even talking to ?
       finalpos: {x: 0, y: 0, z: 0}
@@ -4901,6 +5001,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 1
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 5
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -4908,6 +5010,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: 'Don''t ask. Just do what I say : STAY HYDRATED.'
       finalpos: {x: 0, y: 0, z: 0}
@@ -4915,6 +5019,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -6605,6 +6711,8 @@ MonoBehaviour:
   actions:
   - events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: This shelf was searched...a folder fell down.
       finalpos: {x: 0, y: 0, z: 0}
@@ -6612,6 +6720,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: But..wait. Page 4, 5, 7...something is missing !
       finalpos: {x: 0, y: 0, z: 0}
@@ -6619,6 +6729,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 9
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -6626,6 +6738,8 @@ MonoBehaviour:
       hintToGive: {fileID: 11400000, guid: cc69ab3ed13edd641a1868b0675c0445, type: 2}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -6634,6 +6748,8 @@ MonoBehaviour:
       profileToGive: {fileID: 0}
   - events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: Why would he have three shelves when one would be enough ?
       finalpos: {x: 0, y: 0, z: 0}
@@ -6641,6 +6757,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 5
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -6648,6 +6766,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 1
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: He migh be a shelf-addict.
       finalpos: {x: 0, y: 0, z: 0}
@@ -6655,6 +6775,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 1
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 5
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -6662,6 +6784,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: Yeah...right...
       finalpos: {x: 0, y: 0, z: 0}
@@ -6669,6 +6793,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 1
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: And that's why I'm the detective here, ladies and gentlemen !
       finalpos: {x: 0, y: 0, z: 0}
@@ -6676,6 +6802,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 1
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -6685,6 +6813,8 @@ MonoBehaviour:
   deflt:
     events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: Some basic shelves. Nothing left to see.
       finalpos: {x: 0, y: 0, z: 0}
@@ -6692,6 +6822,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -6995,6 +7127,8 @@ MonoBehaviour:
   deflt:
     events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: What a beautiful window...
       finalpos: {x: 0, y: 0, z: 0}
@@ -7002,6 +7136,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: It's raining outside...how beautiful...
       finalpos: {x: 0, y: 0, z: 0}
@@ -7009,6 +7145,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -8413,6 +8551,8 @@ MonoBehaviour:
   actions:
   - events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: The statue is covered in blood...
       finalpos: {x: 0, y: 0, z: 0}
@@ -8420,6 +8560,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 9
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -8427,6 +8569,8 @@ MonoBehaviour:
       hintToGive: {fileID: 11400000, guid: 50e1954305683514bbd8043278d23e2e, type: 2}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: But...no...something is wrong...
       finalpos: {x: 0, y: 0, z: 0}
@@ -8434,6 +8578,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -8443,6 +8589,8 @@ MonoBehaviour:
   deflt:
     events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: I never understood why important people had strange statues in their
         offices.
@@ -8451,6 +8599,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: Not that it matters, of course.
       finalpos: {x: 0, y: 0, z: 0}
@@ -8458,6 +8608,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -9068,6 +9220,8 @@ MonoBehaviour:
   actions:
   - events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: It looks like our victim was having a drink with someone...
       finalpos: {x: 0, y: 0, z: 0}
@@ -9075,6 +9229,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: What a strange color. I never saw a drink like that.
       finalpos: {x: 0, y: 0, z: 0}
@@ -9082,6 +9238,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 9
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -9089,6 +9247,8 @@ MonoBehaviour:
       hintToGive: {fileID: 11400000, guid: 6c36a3a9e84bbd3488bd71454696e830, type: 2}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -9098,6 +9258,8 @@ MonoBehaviour:
   deflt:
     events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: I will not drink this. Nope.
       finalpos: {x: 0, y: 0, z: 0}
@@ -9105,6 +9267,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -9953,6 +10117,8 @@ MonoBehaviour:
   deflt:
     events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: A bunch of movie posters...
       finalpos: {x: 0, y: 0, z: 0}
@@ -9960,6 +10126,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: Oh, the new adventures of Json and Gson !
       finalpos: {x: 0, y: 0, z: 0}
@@ -9967,6 +10135,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: I love this movie !
       finalpos: {x: 0, y: 0, z: 0}
@@ -9974,6 +10144,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -10016,6 +10188,8 @@ MonoBehaviour:
   actions:
   - events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: Ohhhh a VR Game Machine ! Cool !
       finalpos: {x: 0, y: 0, z: 0}
@@ -10023,6 +10197,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 5
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -10030,6 +10206,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 1
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: Yeah, I was never good at this game...
       finalpos: {x: 0, y: 0, z: 0}
@@ -10037,6 +10215,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 5
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -10044,6 +10224,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 5
       whatToSay: Okay, let me try this...
       finalpos: {x: 0, y: 0, z: 0}
@@ -10051,6 +10233,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -10059,6 +10243,8 @@ MonoBehaviour:
       profileToGive: {fileID: 0}
   - events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: AND BOOOM ! All highscores are blown !
       finalpos: {x: 0, y: 0, z: 0}
@@ -10066,6 +10252,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 5
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -10073,6 +10261,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 1
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: Should we go back to the search ?
       finalpos: {x: 0, y: 0, z: 0}
@@ -10080,6 +10270,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 1
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 5
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -10087,6 +10279,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: Yeah.
       finalpos: {x: 0, y: 0, z: 0}
@@ -10094,6 +10288,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: <i>He's just jealous...
       finalpos: {x: 0, y: 0, z: 0}
@@ -10101,6 +10297,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -10110,6 +10308,8 @@ MonoBehaviour:
   deflt:
     events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: Ehehe I'm the best !
       finalpos: {x: 0, y: 0, z: 0}
@@ -10117,6 +10317,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 1
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: Mylady...
       finalpos: {x: 0, y: 0, z: 0}
@@ -10124,6 +10326,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 1
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 5
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -10131,6 +10335,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: Yeah, yeah. I'm on it.
       finalpos: {x: 0, y: 0, z: 0}
@@ -10138,6 +10344,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -11319,6 +11527,8 @@ MonoBehaviour:
   actions:
   - events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: All right hmm...so you're a cop right ?
       finalpos: {x: 0, y: 0, z: 0}
@@ -11326,6 +11536,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 5
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -11333,6 +11545,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 1
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: Yeah.
       finalpos: {x: 0, y: 0, z: 0}
@@ -11340,6 +11554,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 1
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 5
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -11347,6 +11563,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 5
       whatToSay: '...'
       finalpos: {x: 0, y: 0, z: 0}
@@ -11354,6 +11572,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 1
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 5
       whatToSay: '...'
       finalpos: {x: 0, y: 0, z: 0}
@@ -11361,6 +11581,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 1
       whatToSay: Great talk !
       finalpos: {x: 0, y: 0, z: 0}
@@ -11368,6 +11590,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 10
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -11375,6 +11599,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 11400000, guid: b8c921a48d393d848a72eb84f1bdab40, type: 2}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -11384,6 +11610,8 @@ MonoBehaviour:
   deflt:
     events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: <i>Noope no more akward moment !
       finalpos: {x: 0, y: 0, z: 0}
@@ -11391,6 +11619,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}

@@ -710,6 +710,8 @@ MonoBehaviour:
   - {fileID: 1032278578}
   events:
   - characterIndex: 0
+    sceneToLoadAfterFade: 0
+    indexButtons: 0
     eventType_: 0
     whatToSay: <i>What to do...what to do...
     finalpos: {x: 0, y: 0, z: 0}
@@ -717,6 +719,8 @@ MonoBehaviour:
     hintToGive: {fileID: 0}
     profileToGive: {fileID: 0}
   - characterIndex: 3
+    sceneToLoadAfterFade: 0
+    indexButtons: 0
     eventType_: 3
     whatToSay: OUTRAGEOUS ! Set me free ! You have taken too much of my time !
     finalpos: {x: 0, y: 0, z: 0}
@@ -724,6 +728,8 @@ MonoBehaviour:
     hintToGive: {fileID: 0}
     profileToGive: {fileID: 0}
   - characterIndex: 4
+    sceneToLoadAfterFade: 0
+    indexButtons: 0
     eventType_: 6
     whatToSay: I'm not guilty ! I swear !
     finalpos: {x: 0, y: 0, z: 0}
@@ -731,6 +737,8 @@ MonoBehaviour:
     hintToGive: {fileID: 0}
     profileToGive: {fileID: 0}
   - characterIndex: 1
+    sceneToLoadAfterFade: 0
+    indexButtons: 0
     eventType_: 1
     whatToSay: Detective, what should we do ? Is the culprit really here ?
     finalpos: {x: 0, y: 0, z: 0}
@@ -738,6 +746,8 @@ MonoBehaviour:
     hintToGive: {fileID: 0}
     profileToGive: {fileID: 0}
   - characterIndex: 1
+    sceneToLoadAfterFade: 0
+    indexButtons: 0
     eventType_: 5
     whatToSay: 
     finalpos: {x: 0, y: 0, z: 0}
@@ -745,6 +755,8 @@ MonoBehaviour:
     hintToGive: {fileID: 0}
     profileToGive: {fileID: 0}
   - characterIndex: 5
+    sceneToLoadAfterFade: 0
+    indexButtons: 0
     eventType_: 1
     whatToSay: I'm not sure we'll be able to retain them here much longer...
     finalpos: {x: 0, y: 0, z: 0}
@@ -752,6 +764,8 @@ MonoBehaviour:
     hintToGive: {fileID: 0}
     profileToGive: {fileID: 0}
   - characterIndex: 0
+    sceneToLoadAfterFade: 0
+    indexButtons: 0
     eventType_: 1
     whatToSay: Please, everyone ! Let me think, it won't be long !
     finalpos: {x: 0, y: 0, z: 0}
@@ -759,6 +773,8 @@ MonoBehaviour:
     hintToGive: {fileID: 0}
     profileToGive: {fileID: 0}
   - characterIndex: 0
+    sceneToLoadAfterFade: 0
+    indexButtons: 0
     eventType_: 0
     whatToSay: <i>Think Melody, think...who is the culprit ?...
     finalpos: {x: 0, y: 0, z: 0}
@@ -766,6 +782,8 @@ MonoBehaviour:
     hintToGive: {fileID: 0}
     profileToGive: {fileID: 0}
   - characterIndex: 0
+    sceneToLoadAfterFade: 3
+    indexButtons: 0
     eventType_: 8
     whatToSay: 
     finalpos: {x: 0, y: 0, z: 0}

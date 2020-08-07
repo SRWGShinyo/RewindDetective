@@ -2671,7 +2671,7 @@ MonoBehaviour:
           hintToGive: {fileID: 0}
           profileToGive: {fileID: 0}
         - characterIndex: 0
-          sceneToLoadAfterFade: 0
+          sceneToLoadAfterFade: 12
           indexButtons: 0
           eventType_: 8
           whatToSay: He refused to lend you money. Let me explain to you how I think

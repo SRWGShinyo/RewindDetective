@@ -4,5 +4,44 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MaiNScene.unity
+    guid: 3525abdf8bb77484fbded28410697246
+  - enabled: 1
+    path: Assets/Scenes/IntermedScenes/FirstIntermed.unity
+    guid: 3304a75e400a99349b174a28abd647f1
+  - enabled: 1
+    path: Assets/Scenes/FirstScreen.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/IntermedScenes/SecondIntermed.unity
+    guid: 2b0e295b95b67e64289aada4603e9b05
+  - enabled: 1
+    path: Assets/Scenes/CrimeScene - Day1.unity
+    guid: b5460c65394599b40990426bfc51d5b2
+  - enabled: 1
+    path: Assets/Scenes/IntermedScenes/ThirdIntermed.unity
+    guid: 35fe9becafae4d54889dfd5f46f9895e
+  - enabled: 1
+    path: Assets/Scenes/InterrogationRoom - Day 2.unity
+    guid: 3372950f5a114f14cbb6b004be599494
+  - enabled: 1
+    path: Assets/Scenes/IntermedScenes/FourthIntermed.unity
+    guid: 8440d318ccdafc84b81baf5234f5c410
+  - enabled: 1
+    path: Assets/Scenes/CryMaure - Laboratory.unity
+    guid: a5a865f17e1f44f469cbf622b8e316b8
+  - enabled: 1
+    path: Assets/Scenes/IntermedScenes/FifthIntermed.unity
+    guid: f57cf6dc321960348b4170da85914e81
+  - enabled: 1
+    path: Assets/Scenes/NautSuspicious - Office.unity
+    guid: ed5ee3cb1100f8543921d01c89006e1e
+  - enabled: 1
+    path: Assets/Scenes/LastScene.unity
+    guid: 1f989837f6cc93b4288d125a25ef74fd
+  - enabled: 1
+    path: Assets/Scenes/Conclusion.unity
+    guid: 20dcd73531a2f7d45a293599842017fb
   m_configObjects: {}

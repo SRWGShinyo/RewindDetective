@@ -846,6 +846,8 @@ MonoBehaviour:
   letsLeave:
     events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: Okay, I think I have everything.
       finalpos: {x: 0, y: 0, z: 0}
@@ -853,6 +855,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: ' Let''s ask everyone to come here.'
       finalpos: {x: 0, y: 0, z: 0}
@@ -860,6 +864,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 11
+      indexButtons: 0
       eventType_: 8
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -867,6 +873,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -881,6 +889,8 @@ MonoBehaviour:
     actionToDisplay:
       events:
       - characterIndex: 0
+        sceneToLoadAfterFade: 0
+        indexButtons: 0
         eventType_: 0
         whatToSay: I didn't explore everything...
         finalpos: {x: 0, y: 0, z: 0}
@@ -888,6 +898,8 @@ MonoBehaviour:
         hintToGive: {fileID: 0}
         profileToGive: {fileID: 0}
       - characterIndex: 0
+        sceneToLoadAfterFade: 0
+        indexButtons: 0
         eventType_: 0
         whatToSay: What about that piece of paper over there ?
         finalpos: {x: 0, y: 0, z: 0}
@@ -895,6 +907,8 @@ MonoBehaviour:
         hintToGive: {fileID: 0}
         profileToGive: {fileID: 0}
       - characterIndex: 0
+        sceneToLoadAfterFade: 0
+        indexButtons: 0
         eventType_: 4
         whatToSay: 
         finalpos: {x: 0, y: 0, z: 0}
@@ -906,6 +920,8 @@ MonoBehaviour:
     actionToDisplay:
       events:
       - characterIndex: 0
+        sceneToLoadAfterFade: 0
+        indexButtons: 0
         eventType_: 0
         whatToSay: That blue bottle on the bar...
         finalpos: {x: 0, y: 0, z: 0}
@@ -913,6 +929,8 @@ MonoBehaviour:
         hintToGive: {fileID: 0}
         profileToGive: {fileID: 0}
       - characterIndex: 0
+        sceneToLoadAfterFade: 0
+        indexButtons: 0
         eventType_: 0
         whatToSay: It looks...interesting
         finalpos: {x: 0, y: 0, z: 0}
@@ -920,6 +938,8 @@ MonoBehaviour:
         hintToGive: {fileID: 0}
         profileToGive: {fileID: 0}
       - characterIndex: 0
+        sceneToLoadAfterFade: 0
+        indexButtons: 0
         eventType_: 4
         whatToSay: 
         finalpos: {x: 0, y: 0, z: 0}
@@ -2263,6 +2283,8 @@ MonoBehaviour:
   actions:
   - events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: Mmmh...this is a list of people...
       finalpos: {x: 0, y: 0, z: 0}
@@ -2270,6 +2292,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: '''Debts''...yeah it is a list of all people that are indebted to
         Naut''s company.'
@@ -2278,6 +2302,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: Paul Potens is in here, his name has been crossed out
       finalpos: {x: 0, y: 0, z: 0}
@@ -2285,6 +2311,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 9
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -2292,6 +2320,8 @@ MonoBehaviour:
       hintToGive: {fileID: 11400000, guid: a29819202a855124e8bc89888f789f6f, type: 2}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -2301,6 +2331,8 @@ MonoBehaviour:
   deflt:
     events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: Putting such an important document just here, on a table...
       finalpos: {x: 0, y: 0, z: 0}
@@ -2308,6 +2340,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: How convenient for me !!
       finalpos: {x: 0, y: 0, z: 0}
@@ -2315,6 +2349,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -2437,6 +2473,8 @@ MonoBehaviour:
   actions:
   - events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: No. I won't comment that.
       finalpos: {x: 0, y: 0, z: 0}
@@ -2444,6 +2482,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: That's LITERALLY a pile of money on...
       finalpos: {x: 0, y: 0, z: 0}
@@ -2451,6 +2491,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: No way. I won't comment. That's absurd.
       finalpos: {x: 0, y: 0, z: 0}
@@ -2458,6 +2500,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -2467,6 +2511,8 @@ MonoBehaviour:
   deflt:
     events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: Nu-uh. Absurd. No comment.
       finalpos: {x: 0, y: 0, z: 0}
@@ -2474,6 +2520,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: Nu-uh. Absurd. No comment.
       finalpos: {x: 0, y: 0, z: 0}
@@ -3343,6 +3391,8 @@ MonoBehaviour:
   actions:
   - events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: Oh but isn't that the same drink I saw in the victim's office ?
       finalpos: {x: 0, y: 0, z: 0}
@@ -3350,6 +3400,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: How strange...'Blue Hologram'...
       finalpos: {x: 0, y: 0, z: 0}
@@ -3357,6 +3409,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 9
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -3364,6 +3418,8 @@ MonoBehaviour:
       hintToGive: {fileID: 11400000, guid: db06ca577f22b9f49b25b35211f8d6c0, type: 2}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -3373,6 +3429,8 @@ MonoBehaviour:
   deflt:
     events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: I can't drink on duty !
       finalpos: {x: 0, y: 0, z: 0}
@@ -3380,6 +3438,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: But I'm really eager to try though...
       finalpos: {x: 0, y: 0, z: 0}
@@ -3387,6 +3447,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -3429,6 +3491,8 @@ MonoBehaviour:
   actions:
   - events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: Yeaaaah of course ! Because the ONLY thing this place needs
       finalpos: {x: 0, y: 0, z: 0}
@@ -3436,6 +3500,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: I mean, this place that has a BAR and a handful of drinks
       finalpos: {x: 0, y: 0, z: 0}
@@ -3443,6 +3509,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: Is a vending machine ! Good investment here !
       finalpos: {x: 0, y: 0, z: 0}
@@ -3450,6 +3518,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -3459,6 +3529,8 @@ MonoBehaviour:
   deflt:
     events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: Ooooh it sells a lot of soda !
       finalpos: {x: 0, y: 0, z: 0}
@@ -3466,6 +3538,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: '''D.Va favorite drink ! N''rgize !'''
       finalpos: {x: 0, y: 0, z: 0}
@@ -3473,6 +3547,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: Who even is D.Va ?
       finalpos: {x: 0, y: 0, z: 0}
@@ -3480,6 +3556,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -12801,6 +12879,8 @@ MonoBehaviour:
   actions:
   - events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: That's a fancy, real fancy plant.
       finalpos: {x: 0, y: 0, z: 0}
@@ -12808,6 +12888,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: But how does this lighting event work ? Only the leaves are lighted
         up !
@@ -12816,6 +12898,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}
@@ -12825,6 +12909,8 @@ MonoBehaviour:
   deflt:
     events:
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: Oh, there is a note here, in the pot...
       finalpos: {x: 0, y: 0, z: 0}
@@ -12832,6 +12918,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: '''Thank you for not pointing out the discrepancy in the lighting
         of the plants.'''
@@ -12840,6 +12928,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 0
       whatToSay: '...Oops.'
       finalpos: {x: 0, y: 0, z: 0}
@@ -12847,6 +12937,8 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
     - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
       eventType_: 4
       whatToSay: 
       finalpos: {x: 0, y: 0, z: 0}

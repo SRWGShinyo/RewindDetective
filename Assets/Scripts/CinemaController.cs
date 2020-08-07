@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class CinemaController : MonoBehaviour
@@ -37,10 +38,13 @@ public class CinemaController : MonoBehaviour
             LEAVE,
             FADE,
             HINT,
-            PROFILE
+            PROFILE,
+            BUTTONS
         }
 
         public int characterIndex;
+        public int sceneToLoadAfterFade;
+        public int indexButtons;
         public eventType eventType_;
         public string whatToSay;
         public Vector3 finalpos;
@@ -147,15 +151,19 @@ public class CinemaController : MonoBehaviour
                 break;
             case EventDescriptor.eventType.FADE:
                 uiSetter.Disappear();
-                StartCoroutine(Fade(toFadeIn));
+                StartCoroutine(Fade(toFadeIn, toPlay.sceneToLoadAfterFade));
                 if (FindObjectOfType<InteractableController>() && FindObjectOfType<InteractableController>().isInteracting)
                     FindObjectOfType<InteractableController>().PingAction();
                 isEventing = false;
                 break;
+            case EventDescriptor.eventType.BUTTONS:
+                FindObjectOfType<FinalButtonsController>().setUpPanel(toPlay.indexButtons);
+                LaunchNextEvent();
+                break;
         }
     }
 
-    private IEnumerator Fade(Image image)
+    private IEnumerator Fade(Image image, int sceneToLoad)
     {
         while (image.color.a < 1f)
         {
@@ -164,6 +172,8 @@ public class CinemaController : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
             image.color = color;
         }
+
+        SceneManager.LoadScene(sceneToLoad);
     }
 
     public void GoToCinematic()

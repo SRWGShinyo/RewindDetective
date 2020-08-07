@@ -30,6 +30,7 @@ public class FinalButtonsController : MonoBehaviour
 
     public void setUpPanel(int index)
     {
+        FindObjectOfType<DetectiveMovement>().enabled = false;
         question.text = action.sentences[index];
         for (int i = 0; i < allButtons.Count; i++)
         {

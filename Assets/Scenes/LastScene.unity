@@ -661,7 +661,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   portrait: {fileID: 21300000, guid: d99f3801326fbe341bcfeef256212456, type: 3}
   characterName: Melody
-  anim: {fileID: 0}
+  anim: {fileID: 95148002807602254}
   startsAngry: 0
   startsCrying: 0
   startsThinking: 0

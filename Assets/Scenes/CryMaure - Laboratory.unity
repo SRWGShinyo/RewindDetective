@@ -3364,6 +3364,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Detective
       objectReference: {fileID: 0}
+    - target: {fileID: 2447362712230864933, guid: 9669cffd40e8519438819e9b02d118db,
+        type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 1075599024}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9669cffd40e8519438819e9b02d118db, type: 3}
 --- !u!114 &1075599023 stripped
@@ -3378,6 +3383,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ee84dbb38fe7d5f4baf449e465ef8659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1075599024 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2352233539999610386, guid: 9669cffd40e8519438819e9b02d118db,
+    type: 3}
+  m_PrefabInstance: {fileID: 1075599022}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1096506706
 Transform:
   m_ObjectHideFlags: 0

@@ -16,6 +16,13 @@ public class FolderScript : MonoBehaviour
     public GameObject profileEntry;
     public GameObject hintEntry;
 
+    private void Update()
+    {
+        if (FindObjectOfType<CinemaController>().isEventing || FindObjectOfType<InteractableController>().isInteracting ||
+            FindObjectOfType<InteractableController>().isInteracting)
+            closeFolder();
+    }
+
     public void openFolder()
     {
         if (FindObjectOfType<CinemaController>().isEventing || FindObjectOfType<InteractableController>().isInteracting ||

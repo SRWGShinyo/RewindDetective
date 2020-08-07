@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DrinkHint
   m_EditorClassIdentifier: 
   image: {fileID: 21300000, guid: 5c219b80f3af2aa4590a2aa76821aa2a, type: 3}
-  description: The victim had a drink with someone here. I never saw that color.
+  description: The victim had a drink with someone here.
   combineWith: {fileID: 0}
   givesBack: {fileID: 0}
   actionIfFused:

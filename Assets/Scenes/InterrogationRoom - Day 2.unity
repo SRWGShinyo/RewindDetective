@@ -530,14 +530,7 @@ MonoBehaviour:
       isSpeaking: 0
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
-  toHaveToLeave:
-  - {fileID: 11400000, guid: 2801c60b28e8f1a498338918466654d9, type: 2}
-  - {fileID: 11400000, guid: 4fe476ec64b7a064aad80f02f16dc78b, type: 2}
-  - {fileID: 11400000, guid: 03aff6c651352df4783eb2fdbbdf9bf5, type: 2}
-  - {fileID: 11400000, guid: 6cd90c09c1527e348ac76341af8b5786, type: 2}
-  - {fileID: 11400000, guid: 6a72d74d904a12f459df86f5aa9c5096, type: 2}
-  - {fileID: 11400000, guid: 0a5112fc31920944fb02f044230f3d39, type: 2}
-  - {fileID: 11400000, guid: a81474ec821b61f45a6da214fea6c689, type: 2}
+  toHaveToLeave: []
   toInteractProperly:
   - interactable: {fileID: 719350612}
     actionToDisplay:
@@ -2276,56 +2269,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 367888907, guid: 0fd7d5da73b41bc40be0dbe499ef885b, type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 367888907, guid: 0fd7d5da73b41bc40be0dbe499ef885b, type: 3}
-      propertyPath: m_textInfo.spaceCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 367888907, guid: 0fd7d5da73b41bc40be0dbe499ef885b, type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 367888907, guid: 0fd7d5da73b41bc40be0dbe499ef885b, type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 367888907, guid: 0fd7d5da73b41bc40be0dbe499ef885b, type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1718832135866572645, guid: 0fd7d5da73b41bc40be0dbe499ef885b,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1718832135866572645, guid: 0fd7d5da73b41bc40be0dbe499ef885b,
-        type: 3}
-      propertyPath: m_textInfo.spaceCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1718832135866572645, guid: 0fd7d5da73b41bc40be0dbe499ef885b,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1718832135866572645, guid: 0fd7d5da73b41bc40be0dbe499ef885b,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1718832135866572645, guid: 0fd7d5da73b41bc40be0dbe499ef885b,
-        type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1718832135866572645, guid: 0fd7d5da73b41bc40be0dbe499ef885b,
-        type: 3}
-      propertyPath: m_textInfo.materialCount
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 1718832136472680329, guid: 0fd7d5da73b41bc40be0dbe499ef885b,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -2436,26 +2379,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: CinemaCanvas
       objectReference: {fileID: 0}
-    - target: {fileID: 1718832137366726748, guid: 0fd7d5da73b41bc40be0dbe499ef885b,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1718832137366726748, guid: 0fd7d5da73b41bc40be0dbe499ef885b,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1718832137366726748, guid: 0fd7d5da73b41bc40be0dbe499ef885b,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1718832137366726748, guid: 0fd7d5da73b41bc40be0dbe499ef885b,
-        type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1718832137408896773, guid: 0fd7d5da73b41bc40be0dbe499ef885b,
         type: 3}
       propertyPath: m_Material
@@ -2465,61 +2388,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_sharedMaterial
       value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1718832137498568732, guid: 0fd7d5da73b41bc40be0dbe499ef885b,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1718832137498568732, guid: 0fd7d5da73b41bc40be0dbe499ef885b,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1718832137498568732, guid: 0fd7d5da73b41bc40be0dbe499ef885b,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0.00034529547
-      objectReference: {fileID: 0}
-    - target: {fileID: 1718832137498568732, guid: 0fd7d5da73b41bc40be0dbe499ef885b,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.99999994
-      objectReference: {fileID: 0}
-    - target: {fileID: 1718832137498568732, guid: 0fd7d5da73b41bc40be0dbe499ef885b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: -0.040000003
-      objectReference: {fileID: 0}
-    - target: {fileID: 1718832137683081506, guid: 0fd7d5da73b41bc40be0dbe499ef885b,
-        type: 3}
-      propertyPath: m_textInfo.characterCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1718832137683081506, guid: 0fd7d5da73b41bc40be0dbe499ef885b,
-        type: 3}
-      propertyPath: m_textInfo.spaceCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1718832137683081506, guid: 0fd7d5da73b41bc40be0dbe499ef885b,
-        type: 3}
-      propertyPath: m_textInfo.wordCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1718832137683081506, guid: 0fd7d5da73b41bc40be0dbe499ef885b,
-        type: 3}
-      propertyPath: m_textInfo.lineCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1718832137683081506, guid: 0fd7d5da73b41bc40be0dbe499ef885b,
-        type: 3}
-      propertyPath: m_textInfo.pageCount
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3084056531713628926, guid: 0fd7d5da73b41bc40be0dbe499ef885b,
-        type: 3}
-      propertyPath: m_Spacing
-      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0fd7d5da73b41bc40be0dbe499ef885b, type: 3}
@@ -3562,7 +3430,43 @@ MonoBehaviour:
       hintToGive: {fileID: 0}
       profileToGive: {fileID: 0}
   deflt:
-    events: []
+    events:
+    - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
+      eventType_: 0
+      whatToSay: This autopsy report won't make me learn anything new.
+      finalpos: {x: 0, y: 0, z: 0}
+      isSpeaking: 0
+      hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
+    - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
+      eventType_: 0
+      whatToSay: Except if there is...AN UPDATED VERSION !
+      finalpos: {x: 0, y: 0, z: 0}
+      isSpeaking: 0
+      hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
+    - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
+      eventType_: 0
+      whatToSay: Just joking, chill Edgeworth !
+      finalpos: {x: 0, y: 0, z: 0}
+      isSpeaking: 0
+      hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
+    - characterIndex: 0
+      sceneToLoadAfterFade: 0
+      indexButtons: 0
+      eventType_: 4
+      whatToSay: 
+      finalpos: {x: 0, y: 0, z: 0}
+      isSpeaking: 0
+      hintToGive: {fileID: 0}
+      profileToGive: {fileID: 0}
 --- !u!4 &719670616
 Transform:
   m_ObjectHideFlags: 0

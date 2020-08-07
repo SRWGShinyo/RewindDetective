@@ -62,7 +62,7 @@ public class CinemaController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (isEventing && Input.GetKeyDown(KeyCode.Return) && !isDialogHappening)
+        if (isEventing && Input.GetMouseButtonDown(0) && !isDialogHappening)
             LaunchNextEvent();
     }
 

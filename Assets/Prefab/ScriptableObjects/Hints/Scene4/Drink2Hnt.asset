@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: Drink2Hnt
   m_EditorClassIdentifier: 
   image: {fileID: 21300000, guid: db53fb061023a014bb2283d39bb4abf6, type: 3}
-  description: A bottle of the drink I found on the crime scene was also in Naut's
-    office.
+  description: A bottle of the drink was also in Naut's office.
   combineWith: {fileID: 0}
   givesBack: {fileID: 0}
   actionIfFused:

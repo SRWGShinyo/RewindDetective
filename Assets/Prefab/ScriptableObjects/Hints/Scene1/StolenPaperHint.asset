@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: StolenPaperHint
   m_EditorClassIdentifier: 
   image: {fileID: 21300000, guid: b1932f0660ec8d146a90d931d962c07e, type: 3}
-  description: The culprit stole a page from a folder in the victim's office.
+  description: The culprit stole a page from a folder.
   combineWith: {fileID: 0}
   givesBack: {fileID: 0}
   actionIfFused:
